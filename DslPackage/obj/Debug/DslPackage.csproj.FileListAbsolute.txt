@@ -1,0 +1,74 @@
+c:\users\omar\documents\visual studio 2010\Projects\GeneradorBootstrap\DslPackage\bin\Debug\CSharp\1033\DSLBootstrap.zip
+c:\users\omar\documents\visual studio 2010\Projects\GeneradorBootstrap\DslPackage\bin\Debug\VisualBasic\1033\DSLBootstrap.zip
+c:\users\omar\documents\visual studio 2010\Projects\GeneradorBootstrap\DslPackage\bin\Debug\GeneratedCode\DSLBootstrapSchema.xsd
+c:\users\omar\documents\visual studio 2010\Projects\GeneradorBootstrap\DslPackage\bin\Debug\Company.DSLBootstrap.DslPackage.dll
+c:\users\omar\documents\visual studio 2010\Projects\GeneradorBootstrap\DslPackage\bin\Debug\Company.DSLBootstrap.DslPackage.pdb
+c:\users\omar\documents\visual studio 2010\Projects\GeneradorBootstrap\DslPackage\bin\Debug\Company.DSLBootstrap.DslPackage.pkgdef
+c:\users\omar\documents\visual studio 2010\Projects\GeneradorBootstrap\DslPackage\bin\Debug\Company.DSLBootstrap.DslPackage.vsix
+c:\users\omar\documents\visual studio 2010\Projects\GeneradorBootstrap\DslPackage\bin\Debug\extension.vsixmanifest
+c:\users\omar\documents\visual studio 2010\Projects\GeneradorBootstrap\DslPackage\bin\Debug\Company.DSLBootstrap.Dsl.dll
+c:\users\omar\documents\visual studio 2010\Projects\GeneradorBootstrap\DslPackage\bin\Debug\Microsoft.VisualStudio.Modeling.Sdk.Diagrams.GraphObject.10.0.dll
+c:\users\omar\documents\visual studio 2010\Projects\GeneradorBootstrap\DslPackage\bin\Debug\Microsoft.VisualStudio.Settings.dll
+c:\users\omar\documents\visual studio 2010\Projects\GeneradorBootstrap\DslPackage\bin\Debug\Company.DSLBootstrap.Dsl.pdb
+c:\users\omar\documents\visual studio 2010\Projects\GeneradorBootstrap\DslPackage\bin\Debug\Microsoft.VisualStudio.Settings.xml
+c:\users\omar\documents\visual studio 2010\Projects\GeneradorBootstrap\DslPackage\obj\Debug\DslPackage.csprojResolveAssemblyReference.cache
+c:\users\omar\documents\visual studio 2010\Projects\GeneradorBootstrap\DslPackage\obj\Debug\VSPackage.resources
+c:\users\omar\documents\visual studio 2010\Projects\GeneradorBootstrap\DslPackage\obj\Debug\DslPackage.csproj.GenerateResource.Cache
+c:\users\omar\documents\visual studio 2010\Projects\GeneradorBootstrap\DslPackage\obj\Debug\Commands.cto
+c:\users\omar\documents\visual studio 2010\Projects\GeneradorBootstrap\DslPackage\obj\Debug\VSCT.read.1.tlog
+c:\users\omar\documents\visual studio 2010\Projects\GeneradorBootstrap\DslPackage\obj\Debug\VSCT.write.1.tlog
+c:\users\omar\documents\visual studio 2010\Projects\GeneradorBootstrap\DslPackage\obj\Debug\VSPackage.resources.original
+c:\users\omar\documents\visual studio 2010\Projects\GeneradorBootstrap\DslPackage\obj\Debug\CtoResourceMerger.cache
+c:\users\omar\documents\visual studio 2010\Projects\GeneradorBootstrap\DslPackage\obj\Debug\Company.DSLBootstrap.DslPackage.dll
+c:\users\omar\documents\visual studio 2010\Projects\GeneradorBootstrap\DslPackage\obj\Debug\Company.DSLBootstrap.DslPackage.pdb
+c:\users\omar\documents\visual studio 2010\Projects\GeneradorBootstrap\DslPackage\obj\Debug\Company.DSLBootstrap.DslPackage.pkgdef
+c:\users\omar\documents\visual studio 2010\Projects\GeneradorBootstrap\DslPackage\obj\Debug\Company.DSLBootstrap.DslPackage.latest.pkgdef
+c:\users\omar\documents\visual studio 2010\Projects\GeneradorBootstrap\DslPackage\obj\Debug\extension.vsixmanifest
+C:\Users\SPH\Pictures\GeneradorBootstrap\DslPackage\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\SPH\Pictures\GeneradorBootstrap\DslPackage\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\SPH\Pictures\GeneradorBootstrap\DslPackage\bin\Debug\CSharp\1033\DSLBootstrap.zip
+C:\Users\SPH\Pictures\GeneradorBootstrap\DslPackage\bin\Debug\VisualBasic\1033\DSLBootstrap.zip
+C:\Users\SPH\Pictures\GeneradorBootstrap\DslPackage\bin\Debug\GeneratedCode\DSLBootstrapSchema.xsd
+C:\Users\SPH\Pictures\GeneradorBootstrap\DslPackage\bin\Debug\Company.DSLBootstrap.DslPackage.dll
+C:\Users\SPH\Pictures\GeneradorBootstrap\DslPackage\bin\Debug\Company.DSLBootstrap.DslPackage.pdb
+C:\Users\SPH\Pictures\GeneradorBootstrap\DslPackage\bin\Debug\Company.DSLBootstrap.DslPackage.pkgdef
+C:\Users\SPH\Pictures\GeneradorBootstrap\DslPackage\bin\Debug\Company.DSLBootstrap.DslPackage.vsix
+C:\Users\SPH\Pictures\GeneradorBootstrap\DslPackage\bin\Debug\extension.vsixmanifest
+C:\Users\SPH\Pictures\GeneradorBootstrap\DslPackage\bin\Debug\Company.DSLBootstrap.Dsl.dll
+C:\Users\SPH\Pictures\GeneradorBootstrap\DslPackage\bin\Debug\Company.DSLBootstrap.Dsl.pdb
+C:\Users\SPH\Pictures\GeneradorBootstrap\DslPackage\obj\Debug\VSPackage.resources
+C:\Users\SPH\Pictures\GeneradorBootstrap\DslPackage\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\SPH\Pictures\GeneradorBootstrap\DslPackage\obj\Debug\Commands.cto
+C:\Users\SPH\Pictures\GeneradorBootstrap\DslPackage\obj\Debug\Company.DSLBootstrap.DslPackage.dll
+C:\Users\SPH\Pictures\GeneradorBootstrap\DslPackage\obj\Debug\Company.DSLBootstrap.DslPackage.pdb
+C:\Users\SPH\Pictures\GeneradorBootstrap\DslPackage\obj\Debug\Company.DSLBootstrap.DslPackage.pkgdef
+C:\Users\SPH\Pictures\GeneradorBootstrap\DslPackage\obj\Debug\Company.DSLBootstrap.DslPackage.latest.pkgdef
+C:\Users\SPH\Pictures\GeneradorBootstrap\DslPackage\obj\Debug\extension.vsixmanifest
+C:\Users\SPH\Pictures\GeneradorBootstrap\DslPackage\obj\Debug\VSCT.read.1.tlog
+C:\Users\SPH\Pictures\GeneradorBootstrap\DslPackage\obj\Debug\VSCT.write.1.tlog
+C:\Users\SPH\Pictures\GeneradorBootstrap\DslPackage\obj\Debug\VSPackage.resources.original
+C:\Users\SPH\Pictures\GeneradorBootstrap\DslPackage\obj\Debug\CtoResourceMerger.cache
+C:\Users\SPH\Pictures\Respaldo\GeneradorBootstrap\DslPackage\bin\Debug\CSharp\1033\DSLBootstrap.zip
+C:\Users\SPH\Pictures\Respaldo\GeneradorBootstrap\DslPackage\bin\Debug\VisualBasic\1033\DSLBootstrap.zip
+C:\Users\SPH\Pictures\Respaldo\GeneradorBootstrap\DslPackage\bin\Debug\GeneratedCode\DSLBootstrapSchema.xsd
+C:\Users\SPH\Pictures\Respaldo\GeneradorBootstrap\DslPackage\bin\Debug\Company.DSLBootstrap.DslPackage.dll
+C:\Users\SPH\Pictures\Respaldo\GeneradorBootstrap\DslPackage\bin\Debug\Company.DSLBootstrap.DslPackage.pdb
+C:\Users\SPH\Pictures\Respaldo\GeneradorBootstrap\DslPackage\bin\Debug\Company.DSLBootstrap.DslPackage.pkgdef
+C:\Users\SPH\Pictures\Respaldo\GeneradorBootstrap\DslPackage\bin\Debug\Company.DSLBootstrap.DslPackage.vsix
+C:\Users\SPH\Pictures\Respaldo\GeneradorBootstrap\DslPackage\bin\Debug\extension.vsixmanifest
+C:\Users\SPH\Pictures\Respaldo\GeneradorBootstrap\DslPackage\bin\Debug\Company.DSLBootstrap.Dsl.dll
+C:\Users\SPH\Pictures\Respaldo\GeneradorBootstrap\DslPackage\bin\Debug\Company.DSLBootstrap.Dsl.pdb
+C:\Users\SPH\Pictures\Respaldo\GeneradorBootstrap\DslPackage\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\SPH\Pictures\Respaldo\GeneradorBootstrap\DslPackage\obj\Debug\VSPackage.resources
+C:\Users\SPH\Pictures\Respaldo\GeneradorBootstrap\DslPackage\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\SPH\Pictures\Respaldo\GeneradorBootstrap\DslPackage\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\SPH\Pictures\Respaldo\GeneradorBootstrap\DslPackage\obj\Debug\Commands.cto
+C:\Users\SPH\Pictures\Respaldo\GeneradorBootstrap\DslPackage\obj\Debug\Company.DSLBootstrap.DslPackage.dll
+C:\Users\SPH\Pictures\Respaldo\GeneradorBootstrap\DslPackage\obj\Debug\Company.DSLBootstrap.DslPackage.pdb
+C:\Users\SPH\Pictures\Respaldo\GeneradorBootstrap\DslPackage\obj\Debug\Company.DSLBootstrap.DslPackage.pkgdef
+C:\Users\SPH\Pictures\Respaldo\GeneradorBootstrap\DslPackage\obj\Debug\Company.DSLBootstrap.DslPackage.latest.pkgdef
+C:\Users\SPH\Pictures\Respaldo\GeneradorBootstrap\DslPackage\obj\Debug\extension.vsixmanifest
+C:\Users\SPH\Pictures\Respaldo\GeneradorBootstrap\DslPackage\obj\Debug\VSCT.read.1.tlog
+C:\Users\SPH\Pictures\Respaldo\GeneradorBootstrap\DslPackage\obj\Debug\VSCT.write.1.tlog
+C:\Users\SPH\Pictures\Respaldo\GeneradorBootstrap\DslPackage\obj\Debug\VSPackage.resources.original
+C:\Users\SPH\Pictures\Respaldo\GeneradorBootstrap\DslPackage\obj\Debug\CtoResourceMerger.cache

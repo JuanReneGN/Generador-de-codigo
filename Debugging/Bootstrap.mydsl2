@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<paginaWeb xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="30f7b98a-83d6-4f98-9070-06b4a5aeacb7" xmlns="http://schemas.microsoft.com/dsltools/DSLBootstrap">
+  <formulario>
+    <paginaWebHasFormulario Id="5b87b9b4-16fc-47b5-a4ac-05d6e7ae2fcf">
+      <formularioFormal Id="497313f8-9098-4585-aee1-57b2425082ea" textNombre="FormularioFormal1">
+        <editButtons>
+          <formularioBonitoTieneEditButtons Id="e6278452-0a51-437f-9315-3004d1199ad2">
+            <editButton Id="e7d18b12-e86a-44ce-9d84-43d2d0c8a9c1" />
+          </formularioBonitoTieneEditButtons>
+        </editButtons>
+        <entrada>
+          <formularioHasEntrada Id="9c2d7378-a14e-4413-aa73-5c3eb030b97f">
+            <entrada Id="2cfceb34-7fb4-4035-96b8-903eb8a35085" />
+          </formularioHasEntrada>
+        </entrada>
+        <etiquetas>
+          <formularioHasEtiquetas Id="b0ba8edb-581f-4528-a797-107dacd23802">
+            <etiquetas Id="9a2d3952-6e95-4845-8884-3bb5da95c667" textNombre="Etiquetas1" />
+          </formularioHasEtiquetas>
+          <formularioHasEtiquetas Id="f4016ce0-6407-48f2-bfda-b59160d38d81">
+            <etiquetas Id="0bcdf90c-83c7-4789-8d81-d7c51c8b281c" textNombre="Etiquetas2" />
+          </formularioHasEtiquetas>
+          <formularioHasEtiquetas Id="d93641f1-f3f4-459a-8280-2260aed8c5d5">
+            <etiquetas Id="f2342531-c11a-4799-b95a-7c851ae2e647" textNombre="Etiquetas3" />
+          </formularioHasEtiquetas>
+        </etiquetas>
+        <barradeprogreso>
+          <formularioHasBarradeprogreso Id="64195601-6a47-48f9-b84f-d9583b835cdc">
+            <barradeprogreso Id="c9e18b2f-8473-4d4e-b371-d3203a09c761" />
+          </formularioHasBarradeprogreso>
+        </barradeprogreso>
+        <checkBoxes>
+          <formularioHasCheckBoxes Id="a3c9b576-cd55-4668-910c-63e1ec8b8d5c">
+            <checkBox Id="50810c23-8a1f-47ee-b1d9-c8c70ba6c762" />
+          </formularioHasCheckBoxes>
+          <formularioHasCheckBoxes Id="a8aa8497-dd6f-43c5-bc83-a00c1f66ef6d">
+            <checkBox Id="82afe38f-4c6a-4955-8b79-211fae1e1f24" />
+          </formularioHasCheckBoxes>
+        </checkBoxes>
+        <radioButtons>
+          <formularioHasRadioButtons Id="cf80f674-98f6-422d-a1f9-134b1991e980">
+            <radioButton Id="ec07b5c2-ad18-431e-83ed-ffd9369f0c52" />
+          </formularioHasRadioButtons>
+          <formularioHasRadioButtons Id="60698f2d-252e-4ef8-913f-cde155524625">
+            <radioButton Id="8e249e35-8fb7-434a-bfaf-0773d971cfce" />
+          </formularioHasRadioButtons>
+        </radioButtons>
+        <textRows>
+          <formularioHasTextRows Id="158c26d2-c8bb-434d-b385-bee02cafa1c4">
+            <textRow Id="8142120c-e3c7-477b-bf83-2c6e376dfb41" />
+          </formularioHasTextRows>
+        </textRows>
+        <selecting>
+          <formularioHasSelecting Id="b67a4675-e07c-497f-b6f5-8d0e0a2074ca">
+            <select Id="8fc7b4ac-e753-40f3-abe3-bb97e4e3fd0c" />
+          </formularioHasSelecting>
+        </selecting>
+        <buttonDangers>
+          <formularioHasButtonDangers Id="7daff2d7-e724-4bd4-b71b-02c6968946ae">
+            <buttonDanger Id="67d33a17-da1e-4090-bab0-eba2d2c1c276" />
+          </formularioHasButtonDangers>
+        </buttonDangers>
+        <buttonInfo>
+          <formularioHasButtonInfo Id="702d5d5c-3ebc-42c8-b365-db97f3388a0e">
+            <buttonInfo Id="ea7856ac-242f-45f6-aab6-240680c87b47" />
+          </formularioHasButtonInfo>
+        </buttonInfo>
+        <buttonPrimaries>
+          <formularioHasButtonPrimaries Id="f87d0536-9ef1-4729-817b-36fa83555547">
+            <buttonPrimary Id="94b8beaa-d3be-494d-a8e6-e53914c9275a" />
+          </formularioHasButtonPrimaries>
+        </buttonPrimaries>
+        <buttonWarnings>
+          <formularioHasButtonWarnings Id="9dff614d-253e-4966-8916-6f17744732f5">
+            <buttonWarning Id="e402029c-7803-4f9a-8d1e-11b819f8b125" />
+          </formularioHasButtonWarnings>
+        </buttonWarnings>
+        <buttonSuccesses>
+          <formularioHasButtonSuccesses Id="bf94501d-e8f0-4490-8c8d-98226680ff88">
+            <buttonSuccess Id="9e99b810-66fc-4c69-b317-114ee46f1b54" />
+          </formularioHasButtonSuccesses>
+        </buttonSuccesses>
+        <entradaEmails>
+          <formularioHasEntradaEmails Id="d3ad7104-acd6-4013-959e-593ad881d330">
+            <entradaEmail Id="67ce201f-3c21-4ecb-bf6d-5df9fd2b99a2" />
+          </formularioHasEntradaEmails>
+        </entradaEmails>
+        <entradaPasswords>
+          <formularioHasEntradaPasswords Id="e7d04ea9-4e71-481a-88cc-5967604ca1c0">
+            <entradaPassword Id="1db00ca6-8ddd-484a-b241-bd610551a878" />
+          </formularioHasEntradaPasswords>
+        </entradaPasswords>
+      </formularioFormal>
+    </paginaWebHasFormulario>
+  </formulario>
+  <inners>
+    <paginaWebHasInners Id="06803ff6-fd0c-40d9-a5ce-7331369e580d">
+      <innerFormal Id="fdd8b78e-5ec8-4c6c-bc60-f7d808899eaf" textNombre="InnerFormal1">
+        <editItems>
+          <innerHasEditItems Id="2048c23c-9582-4ba4-851f-7fadb443b6ef">
+            <editItem Id="beef6723-c5d8-4944-bf22-6f7e30ac00b3" textNombre="EditItem1" />
+          </innerHasEditItems>
+          <innerHasEditItems Id="d9be5337-2527-4d8e-984b-6fa09dd61b0e">
+            <editItem Id="504eeb7f-d609-445c-a394-226afac1ac18" textNombre="EditItem2" />
+          </innerHasEditItems>
+          <innerHasEditItems Id="0422d244-0b5e-4d38-8115-c263c30e3793">
+            <editItem Id="01a64b76-3b76-4092-a645-d0279a668ad8" textNombre="EditItem3" />
+          </innerHasEditItems>
+        </editItems>
+      </innerFormal>
+    </paginaWebHasInners>
+  </inners>
+  <tables>
+    <paginaWebHasTables Id="de68adb0-9f5e-49b3-8064-30e2407c96e7">
+      <tableFormal Id="5edfdeb3-c645-49f4-bef9-4075f4b8b62c" textNombre="TableFormal1">
+        <renglones>
+          <tableHasRenglones Id="a747fef5-c3e7-4add-b773-61e3692b5962">
+            <renglones Id="f96b48bf-9fb1-4b7b-bab3-f5e441a78c79" textNombre="Renglones1">
+              <columnaRenglon>
+                <renglonesHasColumnaRenglon Id="b90446e7-8d29-401f-a01e-e784ab5a5c07">
+                  <columnaRenglon Id="58699958-bf7f-4285-965e-ede3215a2571" textNombre="ColumnaRenglon1" />
+                </renglonesHasColumnaRenglon>
+                <renglonesHasColumnaRenglon Id="0dacbba4-b56a-4af1-b397-584487b95897">
+                  <columnaRenglon Id="cefcbcc1-b64b-4a54-9da2-117e9f42a021" textNombre="ColumnaRenglon2" />
+                </renglonesHasColumnaRenglon>
+                <renglonesHasColumnaRenglon Id="029e14b0-31fc-477c-82a2-e9ae15ab8fc4">
+                  <columnaRenglon Id="747e2a9c-d5f9-4c42-9ced-17c7e4488b46" textNombre="ColumnaRenglon3" />
+                </renglonesHasColumnaRenglon>
+                <renglonesHasColumnaRenglon Id="fc3cad18-9094-4b13-803c-c42ab266d858">
+                  <columnaRenglon Id="22b90dd5-686c-422a-bd9a-91e888d93fb9" textNombre="ColumnaRenglon4" />
+                </renglonesHasColumnaRenglon>
+              </columnaRenglon>
+            </renglones>
+          </tableHasRenglones>
+        </renglones>
+        <columnas>
+          <tableHasColumnas Id="88af6fd0-0c6f-4f66-88a9-16694fd50a2e">
+            <columnas Id="062f6817-7eec-43ca-9628-081b5f689f2e" textNombre="Columnas1" />
+          </tableHasColumnas>
+          <tableHasColumnas Id="c78d9c58-c4d6-47e5-ae5a-0f5b6c5bcaf7">
+            <columnas Id="9850930e-e0a2-405b-ab17-11adecee0498" textNombre="Columnas2" />
+          </tableHasColumnas>
+          <tableHasColumnas Id="bab50878-22fa-40d0-b2ff-7f2bb6a8d1ba">
+            <columnas Id="033e5af5-fc78-41ba-9ec3-94e1b64e03a8" textNombre="Columnas3" />
+          </tableHasColumnas>
+          <tableHasColumnas Id="425df108-4fc2-4f92-9c52-57cddb5528ad">
+            <columnas Id="2ef152cb-0c86-4c3a-beba-7bf7218a2aab" textNombre="Columnas4" />
+          </tableHasColumnas>
+        </columnas>
+      </tableFormal>
+    </paginaWebHasTables>
+  </tables>
+</paginaWeb>

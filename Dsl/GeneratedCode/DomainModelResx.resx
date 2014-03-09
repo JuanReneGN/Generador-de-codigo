@@ -1,0 +1,2219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Company.DSLBootstrap.DSLBootstrapDomainModel.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.DSLBootstrap</value>
+    <comment>Description for DslLibrary &apos;DSLBootstrap&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.DSLBootstrapDomainModel.DisplayName" xml:space="preserve">
+    <value>DSLBootstrap</value>
+    <comment>DisplayName for DslLibrary &apos;DSLBootstrap&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.PaginaWeb.Description" xml:space="preserve">
+    <value>The root in which all other elements are embedded. Appears as a diagram.</value>
+    <comment>Description for DomainClass &apos;PaginaWeb&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.PaginaWeb.DisplayName" xml:space="preserve">
+    <value>Pagina Web</value>
+    <comment>DisplayName for DomainClass &apos;PaginaWeb&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.EditButton.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.EditButton</value>
+    <comment>Description for DomainClass &apos;EditButton&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.EditButton.DisplayName" xml:space="preserve">
+    <value>Edit Button</value>
+    <comment>DisplayName for DomainClass &apos;EditButton&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.EditButton/onClick.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.EditButton.On Click</value>
+    <comment>Description for DomainProperty &apos;onClick&apos; on DomainClass &apos;EditButton&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.EditButton/onClick.DisplayName" xml:space="preserve">
+    <value>On Click</value>
+    <comment>DisplayName for DomainProperty &apos;onClick&apos; on DomainClass &apos;EditButton&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.EditButton/EditColor.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.EditButton.Edit Color</value>
+    <comment>Description for DomainProperty &apos;EditColor&apos; on DomainClass &apos;EditButton&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.EditButton/EditColor.DisplayName" xml:space="preserve">
+    <value>Edit Color</value>
+    <comment>DisplayName for DomainProperty &apos;EditColor&apos; on DomainClass &apos;EditButton&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.EditButton/Icon.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.EditButton.Icon</value>
+    <comment>Description for DomainProperty &apos;Icon&apos; on DomainClass &apos;EditButton&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.EditButton/Icon.DisplayName" xml:space="preserve">
+    <value>Icon</value>
+    <comment>DisplayName for DomainProperty &apos;Icon&apos; on DomainClass &apos;EditButton&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.EditButton/TextName.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.EditButton.Text Name</value>
+    <comment>Description for DomainProperty &apos;TextName&apos; on DomainClass &apos;EditButton&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.EditButton/TextName.DisplayName" xml:space="preserve">
+    <value>Text Name</value>
+    <comment>DisplayName for DomainProperty &apos;TextName&apos; on DomainClass &apos;EditButton&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.Formulario.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.Formulario</value>
+    <comment>Description for DomainClass &apos;Formulario&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.Formulario.DisplayName" xml:space="preserve">
+    <value>Formulario</value>
+    <comment>DisplayName for DomainClass &apos;Formulario&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.Table.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.Table</value>
+    <comment>Description for DomainClass &apos;Table&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.Table.DisplayName" xml:space="preserve">
+    <value>Table</value>
+    <comment>DisplayName for DomainClass &apos;Table&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.Inner.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.Inner</value>
+    <comment>Description for DomainClass &apos;Inner&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.Inner.DisplayName" xml:space="preserve">
+    <value>Inner</value>
+    <comment>DisplayName for DomainClass &apos;Inner&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.Inner/TextNombre.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.Inner.Text Nombre</value>
+    <comment>Description for DomainProperty &apos;TextNombre&apos; on DomainClass &apos;Inner&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.Inner/TextNombre.DisplayName" xml:space="preserve">
+    <value>Text Nombre</value>
+    <comment>DisplayName for DomainProperty &apos;TextNombre&apos; on DomainClass &apos;Inner&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.Entrada.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.Entrada</value>
+    <comment>Description for DomainClass &apos;Entrada&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.Entrada.DisplayName" xml:space="preserve">
+    <value>Entrada</value>
+    <comment>DisplayName for DomainClass &apos;Entrada&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.Entrada/Input.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.Entrada.Input</value>
+    <comment>Description for DomainProperty &apos;Input&apos; on DomainClass &apos;Entrada&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.Entrada/Input.DisplayName" xml:space="preserve">
+    <value>Input</value>
+    <comment>DisplayName for DomainProperty &apos;Input&apos; on DomainClass &apos;Entrada&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.Entrada/TextName.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.Entrada.Text Name</value>
+    <comment>Description for DomainProperty &apos;TextName&apos; on DomainClass &apos;Entrada&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.Entrada/TextName.DisplayName" xml:space="preserve">
+    <value>Text Name</value>
+    <comment>DisplayName for DomainProperty &apos;TextName&apos; on DomainClass &apos;Entrada&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.Etiquetas.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.Etiquetas</value>
+    <comment>Description for DomainClass &apos;Etiquetas&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.Etiquetas.DisplayName" xml:space="preserve">
+    <value>Etiquetas</value>
+    <comment>DisplayName for DomainClass &apos;Etiquetas&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.Etiquetas/TextNombre.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.Etiquetas.Text Nombre</value>
+    <comment>Description for DomainProperty &apos;TextNombre&apos; on DomainClass &apos;Etiquetas&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.Etiquetas/TextNombre.DisplayName" xml:space="preserve">
+    <value>Text Nombre</value>
+    <comment>DisplayName for DomainProperty &apos;TextNombre&apos; on DomainClass &apos;Etiquetas&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.Etiquetas/EditColor.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.Etiquetas.Edit Color</value>
+    <comment>Description for DomainProperty &apos;EditColor&apos; on DomainClass &apos;Etiquetas&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.Etiquetas/EditColor.DisplayName" xml:space="preserve">
+    <value>Edit Color</value>
+    <comment>DisplayName for DomainProperty &apos;EditColor&apos; on DomainClass &apos;Etiquetas&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.Etiquetas/Output.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.Etiquetas.Output</value>
+    <comment>Description for DomainProperty &apos;Output&apos; on DomainClass &apos;Etiquetas&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.Etiquetas/Output.DisplayName" xml:space="preserve">
+    <value>Output</value>
+    <comment>DisplayName for DomainProperty &apos;Output&apos; on DomainClass &apos;Etiquetas&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.Etiquetas/EstiloLetra.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.Etiquetas.Estilo Letra</value>
+    <comment>Description for DomainProperty &apos;EstiloLetra&apos; on DomainClass &apos;Etiquetas&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.Etiquetas/EstiloLetra.DisplayName" xml:space="preserve">
+    <value>Estilo Letra</value>
+    <comment>DisplayName for DomainProperty &apos;EstiloLetra&apos; on DomainClass &apos;Etiquetas&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.Barradeprogreso.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.Barradeprogreso</value>
+    <comment>Description for DomainClass &apos;Barradeprogreso&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.Barradeprogreso.DisplayName" xml:space="preserve">
+    <value>Barradeprogreso</value>
+    <comment>DisplayName for DomainClass &apos;Barradeprogreso&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.Barradeprogreso/TextNombre.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.Barradeprogreso.Text Nombre</value>
+    <comment>Description for DomainProperty &apos;TextNombre&apos; on DomainClass &apos;Barradeprogreso&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.Barradeprogreso/TextNombre.DisplayName" xml:space="preserve">
+    <value>Text Nombre</value>
+    <comment>DisplayName for DomainProperty &apos;TextNombre&apos; on DomainClass &apos;Barradeprogreso&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.Barradeprogreso/Max.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.Barradeprogreso.Max</value>
+    <comment>Description for DomainProperty &apos;Max&apos; on DomainClass &apos;Barradeprogreso&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.Barradeprogreso/Max.DisplayName" xml:space="preserve">
+    <value>Max</value>
+    <comment>DisplayName for DomainProperty &apos;Max&apos; on DomainClass &apos;Barradeprogreso&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.Barradeprogreso/EditColor.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.Barradeprogreso.Edit Color</value>
+    <comment>Description for DomainProperty &apos;EditColor&apos; on DomainClass &apos;Barradeprogreso&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.Barradeprogreso/EditColor.DisplayName" xml:space="preserve">
+    <value>Edit Color</value>
+    <comment>DisplayName for DomainProperty &apos;EditColor&apos; on DomainClass &apos;Barradeprogreso&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.Barradeprogreso/Min.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.Barradeprogreso.Min</value>
+    <comment>Description for DomainProperty &apos;Min&apos; on DomainClass &apos;Barradeprogreso&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.Barradeprogreso/Min.DisplayName" xml:space="preserve">
+    <value>Min</value>
+    <comment>DisplayName for DomainProperty &apos;Min&apos; on DomainClass &apos;Barradeprogreso&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioFormal.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FormularioFormal</value>
+    <comment>Description for DomainClass &apos;FormularioFormal&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioFormal.DisplayName" xml:space="preserve">
+    <value>Formulario Formal</value>
+    <comment>DisplayName for DomainClass &apos;FormularioFormal&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioFormal/TextNombre.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FormularioFormal.Text Nombre</value>
+    <comment>Description for DomainProperty &apos;TextNombre&apos; on DomainClass &apos;FormularioFormal&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioFormal/TextNombre.DisplayName" xml:space="preserve">
+    <value>Text Nombre</value>
+    <comment>DisplayName for DomainProperty &apos;TextNombre&apos; on DomainClass &apos;FormularioFormal&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioBonito.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FormularioBonito</value>
+    <comment>Description for DomainClass &apos;FormularioBonito&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioBonito.DisplayName" xml:space="preserve">
+    <value>Formulario Bonito</value>
+    <comment>DisplayName for DomainClass &apos;FormularioBonito&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioBonito/TextNombre.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FormularioBonito.Text Nombre</value>
+    <comment>Description for DomainProperty &apos;TextNombre&apos; on DomainClass &apos;FormularioBonito&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioBonito/TextNombre.DisplayName" xml:space="preserve">
+    <value>Text Nombre</value>
+    <comment>DisplayName for DomainProperty &apos;TextNombre&apos; on DomainClass &apos;FormularioBonito&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.CheckBox.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.CheckBox</value>
+    <comment>Description for DomainClass &apos;CheckBox&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.CheckBox.DisplayName" xml:space="preserve">
+    <value>Check Box</value>
+    <comment>DisplayName for DomainClass &apos;CheckBox&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.CheckBox/TextNombre.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.CheckBox.Text Nombre</value>
+    <comment>Description for DomainProperty &apos;TextNombre&apos; on DomainClass &apos;CheckBox&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.CheckBox/TextNombre.DisplayName" xml:space="preserve">
+    <value>Text Nombre</value>
+    <comment>DisplayName for DomainProperty &apos;TextNombre&apos; on DomainClass &apos;CheckBox&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.EditItem.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.EditItem</value>
+    <comment>Description for DomainClass &apos;EditItem&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.EditItem.DisplayName" xml:space="preserve">
+    <value>Edit Item</value>
+    <comment>DisplayName for DomainClass &apos;EditItem&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.EditItem/TextNombre.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.EditItem.Text Nombre</value>
+    <comment>Description for DomainProperty &apos;TextNombre&apos; on DomainClass &apos;EditItem&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.EditItem/TextNombre.DisplayName" xml:space="preserve">
+    <value>Text Nombre</value>
+    <comment>DisplayName for DomainProperty &apos;TextNombre&apos; on DomainClass &apos;EditItem&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.Columnas.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.Columnas</value>
+    <comment>Description for DomainClass &apos;Columnas&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.Columnas.DisplayName" xml:space="preserve">
+    <value>Columnas</value>
+    <comment>DisplayName for DomainClass &apos;Columnas&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.Columnas/TextNombre.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.Columnas.Text Nombre</value>
+    <comment>Description for DomainProperty &apos;TextNombre&apos; on DomainClass &apos;Columnas&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.Columnas/TextNombre.DisplayName" xml:space="preserve">
+    <value>Text Nombre</value>
+    <comment>DisplayName for DomainProperty &apos;TextNombre&apos; on DomainClass &apos;Columnas&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.Renglones.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.Renglones</value>
+    <comment>Description for DomainClass &apos;Renglones&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.Renglones.DisplayName" xml:space="preserve">
+    <value>Renglones</value>
+    <comment>DisplayName for DomainClass &apos;Renglones&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.Renglones/TextNombre.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.Renglones.Text Nombre</value>
+    <comment>Description for DomainProperty &apos;TextNombre&apos; on DomainClass &apos;Renglones&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.Renglones/TextNombre.DisplayName" xml:space="preserve">
+    <value>Text Nombre</value>
+    <comment>DisplayName for DomainProperty &apos;TextNombre&apos; on DomainClass &apos;Renglones&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.InnerFormal.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.InnerFormal</value>
+    <comment>Description for DomainClass &apos;InnerFormal&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.InnerFormal.DisplayName" xml:space="preserve">
+    <value>Inner Formal</value>
+    <comment>DisplayName for DomainClass &apos;InnerFormal&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.InnerBonito.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.InnerBonito</value>
+    <comment>Description for DomainClass &apos;InnerBonito&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.InnerBonito.DisplayName" xml:space="preserve">
+    <value>Inner Bonito</value>
+    <comment>DisplayName for DomainClass &apos;InnerBonito&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.TableFormal.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.TableFormal</value>
+    <comment>Description for DomainClass &apos;TableFormal&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.TableFormal.DisplayName" xml:space="preserve">
+    <value>Table Formal</value>
+    <comment>DisplayName for DomainClass &apos;TableFormal&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.TableFormal/TextNombre.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.TableFormal.Text Nombre</value>
+    <comment>Description for DomainProperty &apos;TextNombre&apos; on DomainClass &apos;TableFormal&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.TableFormal/TextNombre.DisplayName" xml:space="preserve">
+    <value>Text Nombre</value>
+    <comment>DisplayName for DomainProperty &apos;TextNombre&apos; on DomainClass &apos;TableFormal&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.TableBonita.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.TableBonita</value>
+    <comment>Description for DomainClass &apos;TableBonita&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.TableBonita.DisplayName" xml:space="preserve">
+    <value>Table Bonita</value>
+    <comment>DisplayName for DomainClass &apos;TableBonita&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.TableBonita/TextNombre.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.TableBonita.Text Nombre</value>
+    <comment>Description for DomainProperty &apos;TextNombre&apos; on DomainClass &apos;TableBonita&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.TableBonita/TextNombre.DisplayName" xml:space="preserve">
+    <value>Text Nombre</value>
+    <comment>DisplayName for DomainProperty &apos;TextNombre&apos; on DomainClass &apos;TableBonita&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.RadioButton.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.RadioButton</value>
+    <comment>Description for DomainClass &apos;RadioButton&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.RadioButton.DisplayName" xml:space="preserve">
+    <value>Radio Button</value>
+    <comment>DisplayName for DomainClass &apos;RadioButton&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.RadioButton/TextNombre.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.RadioButton.Text Nombre</value>
+    <comment>Description for DomainProperty &apos;TextNombre&apos; on DomainClass &apos;RadioButton&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.RadioButton/TextNombre.DisplayName" xml:space="preserve">
+    <value>Text Nombre</value>
+    <comment>DisplayName for DomainProperty &apos;TextNombre&apos; on DomainClass &apos;RadioButton&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.TextRow.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.TextRow</value>
+    <comment>Description for DomainClass &apos;TextRow&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.TextRow.DisplayName" xml:space="preserve">
+    <value>Text Row</value>
+    <comment>DisplayName for DomainClass &apos;TextRow&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.TextRow/TextNombre.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.TextRow.Text Nombre</value>
+    <comment>Description for DomainProperty &apos;TextNombre&apos; on DomainClass &apos;TextRow&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.TextRow/TextNombre.DisplayName" xml:space="preserve">
+    <value>Text Nombre</value>
+    <comment>DisplayName for DomainProperty &apos;TextNombre&apos; on DomainClass &apos;TextRow&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.Select.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.Select</value>
+    <comment>Description for DomainClass &apos;Select&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.Select.DisplayName" xml:space="preserve">
+    <value>Select</value>
+    <comment>DisplayName for DomainClass &apos;Select&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.Select/TextNombre.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.Select.Text Nombre</value>
+    <comment>Description for DomainProperty &apos;TextNombre&apos; on DomainClass &apos;Select&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.Select/TextNombre.DisplayName" xml:space="preserve">
+    <value>Text Nombre</value>
+    <comment>DisplayName for DomainProperty &apos;TextNombre&apos; on DomainClass &apos;Select&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.ColumnaRenglon.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.ColumnaRenglon</value>
+    <comment>Description for DomainClass &apos;ColumnaRenglon&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.ColumnaRenglon.DisplayName" xml:space="preserve">
+    <value>Columna Renglon</value>
+    <comment>DisplayName for DomainClass &apos;ColumnaRenglon&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.ColumnaRenglon/TextNombre.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.ColumnaRenglon.Text Nombre</value>
+    <comment>Description for DomainProperty &apos;TextNombre&apos; on DomainClass &apos;ColumnaRenglon&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.ColumnaRenglon/TextNombre.DisplayName" xml:space="preserve">
+    <value>Text Nombre</value>
+    <comment>DisplayName for DomainProperty &apos;TextNombre&apos; on DomainClass &apos;ColumnaRenglon&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.ButtonDanger.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.ButtonDanger</value>
+    <comment>Description for DomainClass &apos;ButtonDanger&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.ButtonDanger.DisplayName" xml:space="preserve">
+    <value>Button Danger</value>
+    <comment>DisplayName for DomainClass &apos;ButtonDanger&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.ButtonDanger/TextNombre.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.ButtonDanger.Text Nombre</value>
+    <comment>Description for DomainProperty &apos;TextNombre&apos; on DomainClass &apos;ButtonDanger&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.ButtonDanger/TextNombre.DisplayName" xml:space="preserve">
+    <value>Text Nombre</value>
+    <comment>DisplayName for DomainProperty &apos;TextNombre&apos; on DomainClass &apos;ButtonDanger&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.ButtonInfo.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.ButtonInfo</value>
+    <comment>Description for DomainClass &apos;ButtonInfo&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.ButtonInfo.DisplayName" xml:space="preserve">
+    <value>Button Info</value>
+    <comment>DisplayName for DomainClass &apos;ButtonInfo&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.ButtonInfo/TextNombre.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.ButtonInfo.Text Nombre</value>
+    <comment>Description for DomainProperty &apos;TextNombre&apos; on DomainClass &apos;ButtonInfo&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.ButtonInfo/TextNombre.DisplayName" xml:space="preserve">
+    <value>Text Nombre</value>
+    <comment>DisplayName for DomainProperty &apos;TextNombre&apos; on DomainClass &apos;ButtonInfo&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.ButtonPrimary.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.ButtonPrimary</value>
+    <comment>Description for DomainClass &apos;ButtonPrimary&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.ButtonPrimary.DisplayName" xml:space="preserve">
+    <value>Button Primary</value>
+    <comment>DisplayName for DomainClass &apos;ButtonPrimary&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.ButtonPrimary/TextNombre.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.ButtonPrimary.Text Nombre</value>
+    <comment>Description for DomainProperty &apos;TextNombre&apos; on DomainClass &apos;ButtonPrimary&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.ButtonPrimary/TextNombre.DisplayName" xml:space="preserve">
+    <value>Text Nombre</value>
+    <comment>DisplayName for DomainProperty &apos;TextNombre&apos; on DomainClass &apos;ButtonPrimary&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.ButtonWarning.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.ButtonWarning</value>
+    <comment>Description for DomainClass &apos;ButtonWarning&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.ButtonWarning.DisplayName" xml:space="preserve">
+    <value>Button Warning</value>
+    <comment>DisplayName for DomainClass &apos;ButtonWarning&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.ButtonWarning/TextNombre.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.ButtonWarning.Text Nombre</value>
+    <comment>Description for DomainProperty &apos;TextNombre&apos; on DomainClass &apos;ButtonWarning&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.ButtonWarning/TextNombre.DisplayName" xml:space="preserve">
+    <value>Text Nombre</value>
+    <comment>DisplayName for DomainProperty &apos;TextNombre&apos; on DomainClass &apos;ButtonWarning&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.ButtonSuccess.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.ButtonSuccess</value>
+    <comment>Description for DomainClass &apos;ButtonSuccess&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.ButtonSuccess.DisplayName" xml:space="preserve">
+    <value>Button Success</value>
+    <comment>DisplayName for DomainClass &apos;ButtonSuccess&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.ButtonSuccess/TextNombre.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.ButtonSuccess.Text Nombre</value>
+    <comment>Description for DomainProperty &apos;TextNombre&apos; on DomainClass &apos;ButtonSuccess&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.ButtonSuccess/TextNombre.DisplayName" xml:space="preserve">
+    <value>Text Nombre</value>
+    <comment>DisplayName for DomainProperty &apos;TextNombre&apos; on DomainClass &apos;ButtonSuccess&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.EntradaEmail.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.EntradaEmail</value>
+    <comment>Description for DomainClass &apos;EntradaEmail&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.EntradaEmail.DisplayName" xml:space="preserve">
+    <value>Entrada Email</value>
+    <comment>DisplayName for DomainClass &apos;EntradaEmail&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.EntradaEmail/TextName.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.EntradaEmail.Text Name</value>
+    <comment>Description for DomainProperty &apos;TextName&apos; on DomainClass &apos;EntradaEmail&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.EntradaEmail/TextName.DisplayName" xml:space="preserve">
+    <value>Text Name</value>
+    <comment>DisplayName for DomainProperty &apos;TextName&apos; on DomainClass &apos;EntradaEmail&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.EntradaPassword.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.EntradaPassword</value>
+    <comment>Description for DomainClass &apos;EntradaPassword&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.EntradaPassword.DisplayName" xml:space="preserve">
+    <value>Entrada Password</value>
+    <comment>DisplayName for DomainClass &apos;EntradaPassword&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.EntradaPassword/TextName.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.EntradaPassword.Text Name</value>
+    <comment>Description for DomainProperty &apos;TextName&apos; on DomainClass &apos;EntradaPassword&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.EntradaPassword/TextName.DisplayName" xml:space="preserve">
+    <value>Text Name</value>
+    <comment>DisplayName for DomainProperty &apos;TextName&apos; on DomainClass &apos;EntradaPassword&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.PaginaWebHasFormulario.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.PaginaWebHasFormulario</value>
+    <comment>Description for DomainClass &apos;PaginaWebHasFormulario&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.PaginaWebHasFormulario.DisplayName" xml:space="preserve">
+    <value>Pagina Web Has Formulario</value>
+    <comment>DisplayName for DomainClass &apos;PaginaWebHasFormulario&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.PaginaWebHasFormulario/PaginaWeb.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.PaginaWebHasFormulario.PaginaWeb</value>
+    <comment>Description for DomainRole &apos;PaginaWeb&apos; on DomainRelationship &apos;PaginaWebHasFormulario&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.PaginaWebHasFormulario/PaginaWeb.DisplayName" xml:space="preserve">
+    <value>Pagina Web</value>
+    <comment>DisplayName for DomainRole &apos;PaginaWeb&apos; on DomainRelationship &apos;PaginaWebHasFormulario&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.PaginaWebHasFormulario/PaginaWeb.PropertyDisplayName" xml:space="preserve">
+    <value>Formulario</value>
+    <comment>PropertyDisplayName for DomainRole &apos;PaginaWeb&apos; on DomainRelationship &apos;PaginaWebHasFormulario&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.PaginaWebHasFormulario/Formulario.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.PaginaWebHasFormulario.Formulario</value>
+    <comment>Description for DomainRole &apos;Formulario&apos; on DomainRelationship &apos;PaginaWebHasFormulario&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.PaginaWebHasFormulario/Formulario.DisplayName" xml:space="preserve">
+    <value>Formulario</value>
+    <comment>DisplayName for DomainRole &apos;Formulario&apos; on DomainRelationship &apos;PaginaWebHasFormulario&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.PaginaWebHasFormulario/Formulario.PropertyDisplayName" xml:space="preserve">
+    <value>Pagina Web</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Formulario&apos; on DomainRelationship &apos;PaginaWebHasFormulario&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioBonitoTieneEditButtons.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FormularioBonitoTieneEditButtons</value>
+    <comment>Description for DomainClass &apos;FormularioBonitoTieneEditButtons&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioBonitoTieneEditButtons.DisplayName" xml:space="preserve">
+    <value>Formulario Bonito Tiene Edit Buttons</value>
+    <comment>DisplayName for DomainClass &apos;FormularioBonitoTieneEditButtons&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioBonitoTieneEditButtons/Formulario.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FormularioBonitoTieneEditButtons.Formulario</value>
+    <comment>Description for DomainRole &apos;Formulario&apos; on DomainRelationship &apos;FormularioBonitoTieneEditButtons&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioBonitoTieneEditButtons/Formulario.DisplayName" xml:space="preserve">
+    <value>Formulario</value>
+    <comment>DisplayName for DomainRole &apos;Formulario&apos; on DomainRelationship &apos;FormularioBonitoTieneEditButtons&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioBonitoTieneEditButtons/Formulario.PropertyDisplayName" xml:space="preserve">
+    <value>Edit Buttons</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Formulario&apos; on DomainRelationship &apos;FormularioBonitoTieneEditButtons&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioBonitoTieneEditButtons/EditButton.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FormularioBonitoTieneEditButtons.EditButton</value>
+    <comment>Description for DomainRole &apos;EditButton&apos; on DomainRelationship &apos;FormularioBonitoTieneEditButtons&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioBonitoTieneEditButtons/EditButton.DisplayName" xml:space="preserve">
+    <value>Edit Button</value>
+    <comment>DisplayName for DomainRole &apos;EditButton&apos; on DomainRelationship &apos;FormularioBonitoTieneEditButtons&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioBonitoTieneEditButtons/EditButton.PropertyDisplayName" xml:space="preserve">
+    <value>Formulario</value>
+    <comment>PropertyDisplayName for DomainRole &apos;EditButton&apos; on DomainRelationship &apos;FormularioBonitoTieneEditButtons&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasEntrada.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FormularioHasEntrada</value>
+    <comment>Description for DomainClass &apos;FormularioHasEntrada&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasEntrada.DisplayName" xml:space="preserve">
+    <value>Formulario Has Entrada</value>
+    <comment>DisplayName for DomainClass &apos;FormularioHasEntrada&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasEntrada/Formulario.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FormularioHasEntrada.Formulario</value>
+    <comment>Description for DomainRole &apos;Formulario&apos; on DomainRelationship &apos;FormularioHasEntrada&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasEntrada/Formulario.DisplayName" xml:space="preserve">
+    <value>Formulario</value>
+    <comment>DisplayName for DomainRole &apos;Formulario&apos; on DomainRelationship &apos;FormularioHasEntrada&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasEntrada/Formulario.PropertyDisplayName" xml:space="preserve">
+    <value>Entrada</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Formulario&apos; on DomainRelationship &apos;FormularioHasEntrada&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasEntrada/Entrada.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FormularioHasEntrada.Entrada</value>
+    <comment>Description for DomainRole &apos;Entrada&apos; on DomainRelationship &apos;FormularioHasEntrada&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasEntrada/Entrada.DisplayName" xml:space="preserve">
+    <value>Entrada</value>
+    <comment>DisplayName for DomainRole &apos;Entrada&apos; on DomainRelationship &apos;FormularioHasEntrada&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasEntrada/Entrada.PropertyDisplayName" xml:space="preserve">
+    <value>Formulario</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Entrada&apos; on DomainRelationship &apos;FormularioHasEntrada&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasEtiquetas.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FormularioHasEtiquetas</value>
+    <comment>Description for DomainClass &apos;FormularioHasEtiquetas&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasEtiquetas.DisplayName" xml:space="preserve">
+    <value>Formulario Has Etiquetas</value>
+    <comment>DisplayName for DomainClass &apos;FormularioHasEtiquetas&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasEtiquetas/Formulario.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FormularioHasEtiquetas.Formulario</value>
+    <comment>Description for DomainRole &apos;Formulario&apos; on DomainRelationship &apos;FormularioHasEtiquetas&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasEtiquetas/Formulario.DisplayName" xml:space="preserve">
+    <value>Formulario</value>
+    <comment>DisplayName for DomainRole &apos;Formulario&apos; on DomainRelationship &apos;FormularioHasEtiquetas&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasEtiquetas/Formulario.PropertyDisplayName" xml:space="preserve">
+    <value>Etiquetas</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Formulario&apos; on DomainRelationship &apos;FormularioHasEtiquetas&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasEtiquetas/Etiquetas.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FormularioHasEtiquetas.Etiquetas</value>
+    <comment>Description for DomainRole &apos;Etiquetas&apos; on DomainRelationship &apos;FormularioHasEtiquetas&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasEtiquetas/Etiquetas.DisplayName" xml:space="preserve">
+    <value>Etiquetas</value>
+    <comment>DisplayName for DomainRole &apos;Etiquetas&apos; on DomainRelationship &apos;FormularioHasEtiquetas&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasEtiquetas/Etiquetas.PropertyDisplayName" xml:space="preserve">
+    <value>Formulario</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Etiquetas&apos; on DomainRelationship &apos;FormularioHasEtiquetas&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasBarradeprogreso.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FormularioHasBarradeprogreso</value>
+    <comment>Description for DomainClass &apos;FormularioHasBarradeprogreso&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasBarradeprogreso.DisplayName" xml:space="preserve">
+    <value>Formulario Has Barradeprogreso</value>
+    <comment>DisplayName for DomainClass &apos;FormularioHasBarradeprogreso&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasBarradeprogreso/Formulario.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FormularioHasBarradeprogreso.Formulario</value>
+    <comment>Description for DomainRole &apos;Formulario&apos; on DomainRelationship &apos;FormularioHasBarradeprogreso&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasBarradeprogreso/Formulario.DisplayName" xml:space="preserve">
+    <value>Formulario</value>
+    <comment>DisplayName for DomainRole &apos;Formulario&apos; on DomainRelationship &apos;FormularioHasBarradeprogreso&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasBarradeprogreso/Formulario.PropertyDisplayName" xml:space="preserve">
+    <value>Barradeprogreso</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Formulario&apos; on DomainRelationship &apos;FormularioHasBarradeprogreso&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasBarradeprogreso/Barradeprogreso.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FormularioHasBarradeprogreso.Barradeprogreso</value>
+    <comment>Description for DomainRole &apos;Barradeprogreso&apos; on DomainRelationship &apos;FormularioHasBarradeprogreso&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasBarradeprogreso/Barradeprogreso.DisplayName" xml:space="preserve">
+    <value>Barradeprogreso</value>
+    <comment>DisplayName for DomainRole &apos;Barradeprogreso&apos; on DomainRelationship &apos;FormularioHasBarradeprogreso&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasBarradeprogreso/Barradeprogreso.PropertyDisplayName" xml:space="preserve">
+    <value>Formulario</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Barradeprogreso&apos; on DomainRelationship &apos;FormularioHasBarradeprogreso&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.PaginaWebHasInners.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.PaginaWebHasInners</value>
+    <comment>Description for DomainClass &apos;PaginaWebHasInners&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.PaginaWebHasInners.DisplayName" xml:space="preserve">
+    <value>Pagina Web Has Inners</value>
+    <comment>DisplayName for DomainClass &apos;PaginaWebHasInners&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.PaginaWebHasInners/PaginaWeb.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.PaginaWebHasInners.PaginaWeb</value>
+    <comment>Description for DomainRole &apos;PaginaWeb&apos; on DomainRelationship &apos;PaginaWebHasInners&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.PaginaWebHasInners/PaginaWeb.DisplayName" xml:space="preserve">
+    <value>Pagina Web</value>
+    <comment>DisplayName for DomainRole &apos;PaginaWeb&apos; on DomainRelationship &apos;PaginaWebHasInners&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.PaginaWebHasInners/PaginaWeb.PropertyDisplayName" xml:space="preserve">
+    <value>Inners</value>
+    <comment>PropertyDisplayName for DomainRole &apos;PaginaWeb&apos; on DomainRelationship &apos;PaginaWebHasInners&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.PaginaWebHasInners/Inner.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.PaginaWebHasInners.Inner</value>
+    <comment>Description for DomainRole &apos;Inner&apos; on DomainRelationship &apos;PaginaWebHasInners&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.PaginaWebHasInners/Inner.DisplayName" xml:space="preserve">
+    <value>Inner</value>
+    <comment>DisplayName for DomainRole &apos;Inner&apos; on DomainRelationship &apos;PaginaWebHasInners&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.PaginaWebHasInners/Inner.PropertyDisplayName" xml:space="preserve">
+    <value>Pagina Web</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Inner&apos; on DomainRelationship &apos;PaginaWebHasInners&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasCheckBoxes.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FormularioHasCheckBoxes</value>
+    <comment>Description for DomainClass &apos;FormularioHasCheckBoxes&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasCheckBoxes.DisplayName" xml:space="preserve">
+    <value>Formulario Has Check Boxes</value>
+    <comment>DisplayName for DomainClass &apos;FormularioHasCheckBoxes&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasCheckBoxes/Formulario.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FormularioHasCheckBoxes.Formulario</value>
+    <comment>Description for DomainRole &apos;Formulario&apos; on DomainRelationship &apos;FormularioHasCheckBoxes&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasCheckBoxes/Formulario.DisplayName" xml:space="preserve">
+    <value>Formulario</value>
+    <comment>DisplayName for DomainRole &apos;Formulario&apos; on DomainRelationship &apos;FormularioHasCheckBoxes&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasCheckBoxes/Formulario.PropertyDisplayName" xml:space="preserve">
+    <value>Check Boxes</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Formulario&apos; on DomainRelationship &apos;FormularioHasCheckBoxes&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasCheckBoxes/CheckBox.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FormularioHasCheckBoxes.CheckBox</value>
+    <comment>Description for DomainRole &apos;CheckBox&apos; on DomainRelationship &apos;FormularioHasCheckBoxes&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasCheckBoxes/CheckBox.DisplayName" xml:space="preserve">
+    <value>Check Box</value>
+    <comment>DisplayName for DomainRole &apos;CheckBox&apos; on DomainRelationship &apos;FormularioHasCheckBoxes&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasCheckBoxes/CheckBox.PropertyDisplayName" xml:space="preserve">
+    <value>Formulario</value>
+    <comment>PropertyDisplayName for DomainRole &apos;CheckBox&apos; on DomainRelationship &apos;FormularioHasCheckBoxes&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.PaginaWebHasTables.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.PaginaWebHasTables</value>
+    <comment>Description for DomainClass &apos;PaginaWebHasTables&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.PaginaWebHasTables.DisplayName" xml:space="preserve">
+    <value>Pagina Web Has Tables</value>
+    <comment>DisplayName for DomainClass &apos;PaginaWebHasTables&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.PaginaWebHasTables/PaginaWeb.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.PaginaWebHasTables.PaginaWeb</value>
+    <comment>Description for DomainRole &apos;PaginaWeb&apos; on DomainRelationship &apos;PaginaWebHasTables&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.PaginaWebHasTables/PaginaWeb.DisplayName" xml:space="preserve">
+    <value>Pagina Web</value>
+    <comment>DisplayName for DomainRole &apos;PaginaWeb&apos; on DomainRelationship &apos;PaginaWebHasTables&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.PaginaWebHasTables/PaginaWeb.PropertyDisplayName" xml:space="preserve">
+    <value>Tables</value>
+    <comment>PropertyDisplayName for DomainRole &apos;PaginaWeb&apos; on DomainRelationship &apos;PaginaWebHasTables&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.PaginaWebHasTables/Table.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.PaginaWebHasTables.Table</value>
+    <comment>Description for DomainRole &apos;Table&apos; on DomainRelationship &apos;PaginaWebHasTables&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.PaginaWebHasTables/Table.DisplayName" xml:space="preserve">
+    <value>Table</value>
+    <comment>DisplayName for DomainRole &apos;Table&apos; on DomainRelationship &apos;PaginaWebHasTables&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.PaginaWebHasTables/Table.PropertyDisplayName" xml:space="preserve">
+    <value>Pagina Web</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Table&apos; on DomainRelationship &apos;PaginaWebHasTables&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.InnerHasEditItems.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.InnerHasEditItems</value>
+    <comment>Description for DomainClass &apos;InnerHasEditItems&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.InnerHasEditItems.DisplayName" xml:space="preserve">
+    <value>Inner Has Edit Items</value>
+    <comment>DisplayName for DomainClass &apos;InnerHasEditItems&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.InnerHasEditItems/Inner.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.InnerHasEditItems.Inner</value>
+    <comment>Description for DomainRole &apos;Inner&apos; on DomainRelationship &apos;InnerHasEditItems&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.InnerHasEditItems/Inner.DisplayName" xml:space="preserve">
+    <value>Inner</value>
+    <comment>DisplayName for DomainRole &apos;Inner&apos; on DomainRelationship &apos;InnerHasEditItems&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.InnerHasEditItems/Inner.PropertyDisplayName" xml:space="preserve">
+    <value>Edit Items</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Inner&apos; on DomainRelationship &apos;InnerHasEditItems&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.InnerHasEditItems/EditItem.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.InnerHasEditItems.EditItem</value>
+    <comment>Description for DomainRole &apos;EditItem&apos; on DomainRelationship &apos;InnerHasEditItems&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.InnerHasEditItems/EditItem.DisplayName" xml:space="preserve">
+    <value>Edit Item</value>
+    <comment>DisplayName for DomainRole &apos;EditItem&apos; on DomainRelationship &apos;InnerHasEditItems&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.InnerHasEditItems/EditItem.PropertyDisplayName" xml:space="preserve">
+    <value>Inner</value>
+    <comment>PropertyDisplayName for DomainRole &apos;EditItem&apos; on DomainRelationship &apos;InnerHasEditItems&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.TableHasRenglones.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.TableHasRenglones</value>
+    <comment>Description for DomainClass &apos;TableHasRenglones&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.TableHasRenglones.DisplayName" xml:space="preserve">
+    <value>Table Has Renglones</value>
+    <comment>DisplayName for DomainClass &apos;TableHasRenglones&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.TableHasRenglones/Table.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.TableHasRenglones.Table</value>
+    <comment>Description for DomainRole &apos;Table&apos; on DomainRelationship &apos;TableHasRenglones&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.TableHasRenglones/Table.DisplayName" xml:space="preserve">
+    <value>Table</value>
+    <comment>DisplayName for DomainRole &apos;Table&apos; on DomainRelationship &apos;TableHasRenglones&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.TableHasRenglones/Table.PropertyDisplayName" xml:space="preserve">
+    <value>Renglones</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Table&apos; on DomainRelationship &apos;TableHasRenglones&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.TableHasRenglones/Renglones.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.TableHasRenglones.Renglones</value>
+    <comment>Description for DomainRole &apos;Renglones&apos; on DomainRelationship &apos;TableHasRenglones&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.TableHasRenglones/Renglones.DisplayName" xml:space="preserve">
+    <value>Renglones</value>
+    <comment>DisplayName for DomainRole &apos;Renglones&apos; on DomainRelationship &apos;TableHasRenglones&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.TableHasRenglones/Renglones.PropertyDisplayName" xml:space="preserve">
+    <value>Table</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Renglones&apos; on DomainRelationship &apos;TableHasRenglones&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasRadioButtons.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FormularioHasRadioButtons</value>
+    <comment>Description for DomainClass &apos;FormularioHasRadioButtons&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasRadioButtons.DisplayName" xml:space="preserve">
+    <value>Formulario Has Radio Buttons</value>
+    <comment>DisplayName for DomainClass &apos;FormularioHasRadioButtons&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasRadioButtons/Formulario.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FormularioHasRadioButtons.Formulario</value>
+    <comment>Description for DomainRole &apos;Formulario&apos; on DomainRelationship &apos;FormularioHasRadioButtons&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasRadioButtons/Formulario.DisplayName" xml:space="preserve">
+    <value>Formulario</value>
+    <comment>DisplayName for DomainRole &apos;Formulario&apos; on DomainRelationship &apos;FormularioHasRadioButtons&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasRadioButtons/Formulario.PropertyDisplayName" xml:space="preserve">
+    <value>Radio Buttons</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Formulario&apos; on DomainRelationship &apos;FormularioHasRadioButtons&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasRadioButtons/RadioButton.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FormularioHasRadioButtons.RadioButton</value>
+    <comment>Description for DomainRole &apos;RadioButton&apos; on DomainRelationship &apos;FormularioHasRadioButtons&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasRadioButtons/RadioButton.DisplayName" xml:space="preserve">
+    <value>Radio Button</value>
+    <comment>DisplayName for DomainRole &apos;RadioButton&apos; on DomainRelationship &apos;FormularioHasRadioButtons&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasRadioButtons/RadioButton.PropertyDisplayName" xml:space="preserve">
+    <value>Formulario</value>
+    <comment>PropertyDisplayName for DomainRole &apos;RadioButton&apos; on DomainRelationship &apos;FormularioHasRadioButtons&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasTextRows.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FormularioHasTextRows</value>
+    <comment>Description for DomainClass &apos;FormularioHasTextRows&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasTextRows.DisplayName" xml:space="preserve">
+    <value>Formulario Has Text Rows</value>
+    <comment>DisplayName for DomainClass &apos;FormularioHasTextRows&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasTextRows/Formulario.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FormularioHasTextRows.Formulario</value>
+    <comment>Description for DomainRole &apos;Formulario&apos; on DomainRelationship &apos;FormularioHasTextRows&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasTextRows/Formulario.DisplayName" xml:space="preserve">
+    <value>Formulario</value>
+    <comment>DisplayName for DomainRole &apos;Formulario&apos; on DomainRelationship &apos;FormularioHasTextRows&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasTextRows/Formulario.PropertyDisplayName" xml:space="preserve">
+    <value>Text Rows</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Formulario&apos; on DomainRelationship &apos;FormularioHasTextRows&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasTextRows/TextRow.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FormularioHasTextRows.TextRow</value>
+    <comment>Description for DomainRole &apos;TextRow&apos; on DomainRelationship &apos;FormularioHasTextRows&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasTextRows/TextRow.DisplayName" xml:space="preserve">
+    <value>Text Row</value>
+    <comment>DisplayName for DomainRole &apos;TextRow&apos; on DomainRelationship &apos;FormularioHasTextRows&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasTextRows/TextRow.PropertyDisplayName" xml:space="preserve">
+    <value>Formulario</value>
+    <comment>PropertyDisplayName for DomainRole &apos;TextRow&apos; on DomainRelationship &apos;FormularioHasTextRows&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasSelecting.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FormularioHasSelecting</value>
+    <comment>Description for DomainClass &apos;FormularioHasSelecting&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasSelecting.DisplayName" xml:space="preserve">
+    <value>Formulario Has Selecting</value>
+    <comment>DisplayName for DomainClass &apos;FormularioHasSelecting&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasSelecting/Formulario.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FormularioHasSelecting.Formulario</value>
+    <comment>Description for DomainRole &apos;Formulario&apos; on DomainRelationship &apos;FormularioHasSelecting&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasSelecting/Formulario.DisplayName" xml:space="preserve">
+    <value>Formulario</value>
+    <comment>DisplayName for DomainRole &apos;Formulario&apos; on DomainRelationship &apos;FormularioHasSelecting&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasSelecting/Formulario.PropertyDisplayName" xml:space="preserve">
+    <value>Selecting</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Formulario&apos; on DomainRelationship &apos;FormularioHasSelecting&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasSelecting/Select.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FormularioHasSelecting.Select</value>
+    <comment>Description for DomainRole &apos;Select&apos; on DomainRelationship &apos;FormularioHasSelecting&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasSelecting/Select.DisplayName" xml:space="preserve">
+    <value>Select</value>
+    <comment>DisplayName for DomainRole &apos;Select&apos; on DomainRelationship &apos;FormularioHasSelecting&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasSelecting/Select.PropertyDisplayName" xml:space="preserve">
+    <value>Formulario</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Select&apos; on DomainRelationship &apos;FormularioHasSelecting&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.TableHasColumnas.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.TableHasColumnas</value>
+    <comment>Description for DomainClass &apos;TableHasColumnas&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.TableHasColumnas.DisplayName" xml:space="preserve">
+    <value>Table Has Columnas</value>
+    <comment>DisplayName for DomainClass &apos;TableHasColumnas&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.TableHasColumnas/Table.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.TableHasColumnas.Table</value>
+    <comment>Description for DomainRole &apos;Table&apos; on DomainRelationship &apos;TableHasColumnas&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.TableHasColumnas/Table.DisplayName" xml:space="preserve">
+    <value>Table</value>
+    <comment>DisplayName for DomainRole &apos;Table&apos; on DomainRelationship &apos;TableHasColumnas&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.TableHasColumnas/Table.PropertyDisplayName" xml:space="preserve">
+    <value>Columnas</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Table&apos; on DomainRelationship &apos;TableHasColumnas&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.TableHasColumnas/Columnas.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.TableHasColumnas.Columnas</value>
+    <comment>Description for DomainRole &apos;Columnas&apos; on DomainRelationship &apos;TableHasColumnas&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.TableHasColumnas/Columnas.DisplayName" xml:space="preserve">
+    <value>Columnas</value>
+    <comment>DisplayName for DomainRole &apos;Columnas&apos; on DomainRelationship &apos;TableHasColumnas&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.TableHasColumnas/Columnas.PropertyDisplayName" xml:space="preserve">
+    <value>Table</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Columnas&apos; on DomainRelationship &apos;TableHasColumnas&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.RenglonesHasColumnaRenglon.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.RenglonesHasColumnaRenglon</value>
+    <comment>Description for DomainClass &apos;RenglonesHasColumnaRenglon&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.RenglonesHasColumnaRenglon.DisplayName" xml:space="preserve">
+    <value>Renglones Has Columna Renglon</value>
+    <comment>DisplayName for DomainClass &apos;RenglonesHasColumnaRenglon&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.RenglonesHasColumnaRenglon/Renglones.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.RenglonesHasColumnaRenglon.Renglones</value>
+    <comment>Description for DomainRole &apos;Renglones&apos; on DomainRelationship &apos;RenglonesHasColumnaRenglon&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.RenglonesHasColumnaRenglon/Renglones.DisplayName" xml:space="preserve">
+    <value>Renglones</value>
+    <comment>DisplayName for DomainRole &apos;Renglones&apos; on DomainRelationship &apos;RenglonesHasColumnaRenglon&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.RenglonesHasColumnaRenglon/Renglones.PropertyDisplayName" xml:space="preserve">
+    <value>Columna Renglon</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Renglones&apos; on DomainRelationship &apos;RenglonesHasColumnaRenglon&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.RenglonesHasColumnaRenglon/ColumnaRenglon.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.RenglonesHasColumnaRenglon.ColumnaRenglon</value>
+    <comment>Description for DomainRole &apos;ColumnaRenglon&apos; on DomainRelationship &apos;RenglonesHasColumnaRenglon&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.RenglonesHasColumnaRenglon/ColumnaRenglon.DisplayName" xml:space="preserve">
+    <value>Columna Renglon</value>
+    <comment>DisplayName for DomainRole &apos;ColumnaRenglon&apos; on DomainRelationship &apos;RenglonesHasColumnaRenglon&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.RenglonesHasColumnaRenglon/ColumnaRenglon.PropertyDisplayName" xml:space="preserve">
+    <value>Renglones</value>
+    <comment>PropertyDisplayName for DomainRole &apos;ColumnaRenglon&apos; on DomainRelationship &apos;RenglonesHasColumnaRenglon&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasButtonDangers.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FormularioHasButtonDangers</value>
+    <comment>Description for DomainClass &apos;FormularioHasButtonDangers&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasButtonDangers.DisplayName" xml:space="preserve">
+    <value>Formulario Has Button Dangers</value>
+    <comment>DisplayName for DomainClass &apos;FormularioHasButtonDangers&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasButtonDangers/Formulario.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FormularioHasButtonDangers.Formulario</value>
+    <comment>Description for DomainRole &apos;Formulario&apos; on DomainRelationship &apos;FormularioHasButtonDangers&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasButtonDangers/Formulario.DisplayName" xml:space="preserve">
+    <value>Formulario</value>
+    <comment>DisplayName for DomainRole &apos;Formulario&apos; on DomainRelationship &apos;FormularioHasButtonDangers&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasButtonDangers/Formulario.PropertyDisplayName" xml:space="preserve">
+    <value>Button Dangers</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Formulario&apos; on DomainRelationship &apos;FormularioHasButtonDangers&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasButtonDangers/ButtonDanger.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FormularioHasButtonDangers.ButtonDanger</value>
+    <comment>Description for DomainRole &apos;ButtonDanger&apos; on DomainRelationship &apos;FormularioHasButtonDangers&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasButtonDangers/ButtonDanger.DisplayName" xml:space="preserve">
+    <value>Button Danger</value>
+    <comment>DisplayName for DomainRole &apos;ButtonDanger&apos; on DomainRelationship &apos;FormularioHasButtonDangers&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasButtonDangers/ButtonDanger.PropertyDisplayName" xml:space="preserve">
+    <value>Formulario</value>
+    <comment>PropertyDisplayName for DomainRole &apos;ButtonDanger&apos; on DomainRelationship &apos;FormularioHasButtonDangers&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasButtonInfo.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FormularioHasButtonInfo</value>
+    <comment>Description for DomainClass &apos;FormularioHasButtonInfo&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasButtonInfo.DisplayName" xml:space="preserve">
+    <value>Formulario Has Button Info</value>
+    <comment>DisplayName for DomainClass &apos;FormularioHasButtonInfo&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasButtonInfo/Formulario.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FormularioHasButtonInfo.Formulario</value>
+    <comment>Description for DomainRole &apos;Formulario&apos; on DomainRelationship &apos;FormularioHasButtonInfo&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasButtonInfo/Formulario.DisplayName" xml:space="preserve">
+    <value>Formulario</value>
+    <comment>DisplayName for DomainRole &apos;Formulario&apos; on DomainRelationship &apos;FormularioHasButtonInfo&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasButtonInfo/Formulario.PropertyDisplayName" xml:space="preserve">
+    <value>Button Info</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Formulario&apos; on DomainRelationship &apos;FormularioHasButtonInfo&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasButtonInfo/ButtonInfo.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FormularioHasButtonInfo.ButtonInfo</value>
+    <comment>Description for DomainRole &apos;ButtonInfo&apos; on DomainRelationship &apos;FormularioHasButtonInfo&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasButtonInfo/ButtonInfo.DisplayName" xml:space="preserve">
+    <value>Button Info</value>
+    <comment>DisplayName for DomainRole &apos;ButtonInfo&apos; on DomainRelationship &apos;FormularioHasButtonInfo&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasButtonInfo/ButtonInfo.PropertyDisplayName" xml:space="preserve">
+    <value>Formulario</value>
+    <comment>PropertyDisplayName for DomainRole &apos;ButtonInfo&apos; on DomainRelationship &apos;FormularioHasButtonInfo&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasButtonPrimaries.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FormularioHasButtonPrimaries</value>
+    <comment>Description for DomainClass &apos;FormularioHasButtonPrimaries&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasButtonPrimaries.DisplayName" xml:space="preserve">
+    <value>Formulario Has Button Primaries</value>
+    <comment>DisplayName for DomainClass &apos;FormularioHasButtonPrimaries&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasButtonPrimaries/Formulario.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FormularioHasButtonPrimaries.Formulario</value>
+    <comment>Description for DomainRole &apos;Formulario&apos; on DomainRelationship &apos;FormularioHasButtonPrimaries&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasButtonPrimaries/Formulario.DisplayName" xml:space="preserve">
+    <value>Formulario</value>
+    <comment>DisplayName for DomainRole &apos;Formulario&apos; on DomainRelationship &apos;FormularioHasButtonPrimaries&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasButtonPrimaries/Formulario.PropertyDisplayName" xml:space="preserve">
+    <value>Button Primaries</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Formulario&apos; on DomainRelationship &apos;FormularioHasButtonPrimaries&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasButtonPrimaries/ButtonPrimary.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FormularioHasButtonPrimaries.ButtonPrimary</value>
+    <comment>Description for DomainRole &apos;ButtonPrimary&apos; on DomainRelationship &apos;FormularioHasButtonPrimaries&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasButtonPrimaries/ButtonPrimary.DisplayName" xml:space="preserve">
+    <value>Button Primary</value>
+    <comment>DisplayName for DomainRole &apos;ButtonPrimary&apos; on DomainRelationship &apos;FormularioHasButtonPrimaries&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasButtonPrimaries/ButtonPrimary.PropertyDisplayName" xml:space="preserve">
+    <value>Formulario</value>
+    <comment>PropertyDisplayName for DomainRole &apos;ButtonPrimary&apos; on DomainRelationship &apos;FormularioHasButtonPrimaries&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasButtonWarnings.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FormularioHasButtonWarnings</value>
+    <comment>Description for DomainClass &apos;FormularioHasButtonWarnings&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasButtonWarnings.DisplayName" xml:space="preserve">
+    <value>Formulario Has Button Warnings</value>
+    <comment>DisplayName for DomainClass &apos;FormularioHasButtonWarnings&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasButtonWarnings/Formulario.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FormularioHasButtonWarnings.Formulario</value>
+    <comment>Description for DomainRole &apos;Formulario&apos; on DomainRelationship &apos;FormularioHasButtonWarnings&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasButtonWarnings/Formulario.DisplayName" xml:space="preserve">
+    <value>Formulario</value>
+    <comment>DisplayName for DomainRole &apos;Formulario&apos; on DomainRelationship &apos;FormularioHasButtonWarnings&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasButtonWarnings/Formulario.PropertyDisplayName" xml:space="preserve">
+    <value>Button Warnings</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Formulario&apos; on DomainRelationship &apos;FormularioHasButtonWarnings&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasButtonWarnings/ButtonWarning.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FormularioHasButtonWarnings.ButtonWarning</value>
+    <comment>Description for DomainRole &apos;ButtonWarning&apos; on DomainRelationship &apos;FormularioHasButtonWarnings&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasButtonWarnings/ButtonWarning.DisplayName" xml:space="preserve">
+    <value>Button Warning</value>
+    <comment>DisplayName for DomainRole &apos;ButtonWarning&apos; on DomainRelationship &apos;FormularioHasButtonWarnings&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasButtonWarnings/ButtonWarning.PropertyDisplayName" xml:space="preserve">
+    <value>Formulario</value>
+    <comment>PropertyDisplayName for DomainRole &apos;ButtonWarning&apos; on DomainRelationship &apos;FormularioHasButtonWarnings&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasButtonSuccesses.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FormularioHasButtonSuccesses</value>
+    <comment>Description for DomainClass &apos;FormularioHasButtonSuccesses&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasButtonSuccesses.DisplayName" xml:space="preserve">
+    <value>Formulario Has Button Successes</value>
+    <comment>DisplayName for DomainClass &apos;FormularioHasButtonSuccesses&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasButtonSuccesses/Formulario.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FormularioHasButtonSuccesses.Formulario</value>
+    <comment>Description for DomainRole &apos;Formulario&apos; on DomainRelationship &apos;FormularioHasButtonSuccesses&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasButtonSuccesses/Formulario.DisplayName" xml:space="preserve">
+    <value>Formulario</value>
+    <comment>DisplayName for DomainRole &apos;Formulario&apos; on DomainRelationship &apos;FormularioHasButtonSuccesses&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasButtonSuccesses/Formulario.PropertyDisplayName" xml:space="preserve">
+    <value>Button Successes</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Formulario&apos; on DomainRelationship &apos;FormularioHasButtonSuccesses&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasButtonSuccesses/ButtonSuccess.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FormularioHasButtonSuccesses.ButtonSuccess</value>
+    <comment>Description for DomainRole &apos;ButtonSuccess&apos; on DomainRelationship &apos;FormularioHasButtonSuccesses&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasButtonSuccesses/ButtonSuccess.DisplayName" xml:space="preserve">
+    <value>Button Success</value>
+    <comment>DisplayName for DomainRole &apos;ButtonSuccess&apos; on DomainRelationship &apos;FormularioHasButtonSuccesses&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasButtonSuccesses/ButtonSuccess.PropertyDisplayName" xml:space="preserve">
+    <value>Formulario</value>
+    <comment>PropertyDisplayName for DomainRole &apos;ButtonSuccess&apos; on DomainRelationship &apos;FormularioHasButtonSuccesses&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasEntradaEmails.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FormularioHasEntradaEmails</value>
+    <comment>Description for DomainClass &apos;FormularioHasEntradaEmails&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasEntradaEmails.DisplayName" xml:space="preserve">
+    <value>Formulario Has Entrada Emails</value>
+    <comment>DisplayName for DomainClass &apos;FormularioHasEntradaEmails&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasEntradaEmails/Formulario.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FormularioHasEntradaEmails.Formulario</value>
+    <comment>Description for DomainRole &apos;Formulario&apos; on DomainRelationship &apos;FormularioHasEntradaEmails&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasEntradaEmails/Formulario.DisplayName" xml:space="preserve">
+    <value>Formulario</value>
+    <comment>DisplayName for DomainRole &apos;Formulario&apos; on DomainRelationship &apos;FormularioHasEntradaEmails&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasEntradaEmails/Formulario.PropertyDisplayName" xml:space="preserve">
+    <value>Entrada Emails</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Formulario&apos; on DomainRelationship &apos;FormularioHasEntradaEmails&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasEntradaEmails/EntradaEmail.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FormularioHasEntradaEmails.EntradaEmail</value>
+    <comment>Description for DomainRole &apos;EntradaEmail&apos; on DomainRelationship &apos;FormularioHasEntradaEmails&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasEntradaEmails/EntradaEmail.DisplayName" xml:space="preserve">
+    <value>Entrada Email</value>
+    <comment>DisplayName for DomainRole &apos;EntradaEmail&apos; on DomainRelationship &apos;FormularioHasEntradaEmails&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasEntradaEmails/EntradaEmail.PropertyDisplayName" xml:space="preserve">
+    <value>Formulario</value>
+    <comment>PropertyDisplayName for DomainRole &apos;EntradaEmail&apos; on DomainRelationship &apos;FormularioHasEntradaEmails&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasEntradaPasswords.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FormularioHasEntradaPasswords</value>
+    <comment>Description for DomainClass &apos;FormularioHasEntradaPasswords&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasEntradaPasswords.DisplayName" xml:space="preserve">
+    <value>Formulario Has Entrada Passwords</value>
+    <comment>DisplayName for DomainClass &apos;FormularioHasEntradaPasswords&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasEntradaPasswords/Formulario.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FormularioHasEntradaPasswords.Formulario</value>
+    <comment>Description for DomainRole &apos;Formulario&apos; on DomainRelationship &apos;FormularioHasEntradaPasswords&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasEntradaPasswords/Formulario.DisplayName" xml:space="preserve">
+    <value>Formulario</value>
+    <comment>DisplayName for DomainRole &apos;Formulario&apos; on DomainRelationship &apos;FormularioHasEntradaPasswords&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasEntradaPasswords/Formulario.PropertyDisplayName" xml:space="preserve">
+    <value>Entrada Passwords</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Formulario&apos; on DomainRelationship &apos;FormularioHasEntradaPasswords&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasEntradaPasswords/EntradaPassword.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FormularioHasEntradaPasswords.EntradaPassword</value>
+    <comment>Description for DomainRole &apos;EntradaPassword&apos; on DomainRelationship &apos;FormularioHasEntradaPasswords&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasEntradaPasswords/EntradaPassword.DisplayName" xml:space="preserve">
+    <value>Entrada Password</value>
+    <comment>DisplayName for DomainRole &apos;EntradaPassword&apos; on DomainRelationship &apos;FormularioHasEntradaPasswords&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FormularioHasEntradaPasswords/EntradaPassword.PropertyDisplayName" xml:space="preserve">
+    <value>Formulario</value>
+    <comment>PropertyDisplayName for DomainRole &apos;EntradaPassword&apos; on DomainRelationship &apos;FormularioHasEntradaPasswords&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FEditItem.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FEditItem</value>
+    <comment>Description for DomainClass &apos;FEditItem&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FEditItem.DisplayName" xml:space="preserve">
+    <value>FEdit Item</value>
+    <comment>DisplayName for DomainClass &apos;FEditItem&apos;</comment>
+  </data>
+  <data name="FEditItemTextNameDefaultText" xml:space="preserve">
+    <value>TextName</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="Company.DSLBootstrap.Fbutton.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.Fbutton</value>
+    <comment>Description for DomainClass &apos;Fbutton&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.Fbutton.DisplayName" xml:space="preserve">
+    <value>Fbutton</value>
+    <comment>DisplayName for DomainClass &apos;Fbutton&apos;</comment>
+  </data>
+  <data name="FbuttonTextOnClickDefaultText" xml:space="preserve">
+    <value>TextOnClick</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="FbuttonTextColorDefaultText" xml:space="preserve">
+    <value>TextColor</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="FbuttonTextIconDefaultText" xml:space="preserve">
+    <value>TextIcon</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="FbuttonTextNameDefaultText" xml:space="preserve">
+    <value>TextName</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FBarradeprogreso.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FBarradeprogreso</value>
+    <comment>Description for DomainClass &apos;FBarradeprogreso&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FBarradeprogreso.DisplayName" xml:space="preserve">
+    <value>FBarradeprogreso</value>
+    <comment>DisplayName for DomainClass &apos;FBarradeprogreso&apos;</comment>
+  </data>
+  <data name="FBarradeprogresoTextNombreDefaultText" xml:space="preserve">
+    <value>TextNombre</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="FBarradeprogresoTextMaxDefaultText" xml:space="preserve">
+    <value>TextMax</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="FBarradeprogresoTextMinDefaultText" xml:space="preserve">
+    <value>TextMin</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="FBarradeprogresoTextColorDefaultText" xml:space="preserve">
+    <value>TextColor</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FEtiqueta.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FEtiqueta</value>
+    <comment>Description for DomainClass &apos;FEtiqueta&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FEtiqueta.DisplayName" xml:space="preserve">
+    <value>FEtiqueta</value>
+    <comment>DisplayName for DomainClass &apos;FEtiqueta&apos;</comment>
+  </data>
+  <data name="FEtiquetaTextNombreDefaultText" xml:space="preserve">
+    <value>TextNombre</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="FEtiquetaTextColorDefaultText" xml:space="preserve">
+    <value>TextColor</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="FEtiquetaTextOutputDefaultText" xml:space="preserve">
+    <value>TextOutput</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="FEtiquetaTextEstiloDefaultText" xml:space="preserve">
+    <value>TextEstilo</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="Company.DSLBootstrap.Fentrada.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.Fentrada</value>
+    <comment>Description for DomainClass &apos;Fentrada&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.Fentrada.DisplayName" xml:space="preserve">
+    <value>Fentrada</value>
+    <comment>DisplayName for DomainClass &apos;Fentrada&apos;</comment>
+  </data>
+  <data name="FentradaTextInputDefaultText" xml:space="preserve">
+    <value>TextInput</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="FentradaTextNameDefaultText" xml:space="preserve">
+    <value>TextName</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FCheckBox.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FCheckBox</value>
+    <comment>Description for DomainClass &apos;FCheckBox&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FCheckBox.DisplayName" xml:space="preserve">
+    <value>FCheck Box</value>
+    <comment>DisplayName for DomainClass &apos;FCheckBox&apos;</comment>
+  </data>
+  <data name="FCheckBoxTextNombreDefaultText" xml:space="preserve">
+    <value>TextNombre</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FRadioButton.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FRadioButton</value>
+    <comment>Description for DomainClass &apos;FRadioButton&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FRadioButton.DisplayName" xml:space="preserve">
+    <value>FRadio Button</value>
+    <comment>DisplayName for DomainClass &apos;FRadioButton&apos;</comment>
+  </data>
+  <data name="FRadioButtonTextNombreDefaultText" xml:space="preserve">
+    <value>TextNombre</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FTextRow.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FTextRow</value>
+    <comment>Description for DomainClass &apos;FTextRow&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FTextRow.DisplayName" xml:space="preserve">
+    <value>FText Row</value>
+    <comment>DisplayName for DomainClass &apos;FTextRow&apos;</comment>
+  </data>
+  <data name="FTextRowTextNombreDefaultText" xml:space="preserve">
+    <value>TextNombre</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FSelect.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FSelect</value>
+    <comment>Description for DomainClass &apos;FSelect&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FSelect.DisplayName" xml:space="preserve">
+    <value>FSelect</value>
+    <comment>DisplayName for DomainClass &apos;FSelect&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FFormularioFormal.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FFormularioFormal</value>
+    <comment>Description for DomainClass &apos;FFormularioFormal&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FFormularioFormal.DisplayName" xml:space="preserve">
+    <value>FFormulario Formal</value>
+    <comment>DisplayName for DomainClass &apos;FFormularioFormal&apos;</comment>
+  </data>
+  <data name="FFormularioFormalTextNombreDefaultText" xml:space="preserve">
+    <value>TextNombre</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FinnerFormal.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FinnerFormal</value>
+    <comment>Description for DomainClass &apos;FinnerFormal&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FinnerFormal.DisplayName" xml:space="preserve">
+    <value>Finner Formal</value>
+    <comment>DisplayName for DomainClass &apos;FinnerFormal&apos;</comment>
+  </data>
+  <data name="FinnerFormalTextNombreDefaultText" xml:space="preserve">
+    <value>TextNombre</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FinnerBonito.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FinnerBonito</value>
+    <comment>Description for DomainClass &apos;FinnerBonito&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FinnerBonito.DisplayName" xml:space="preserve">
+    <value>Finner Bonito</value>
+    <comment>DisplayName for DomainClass &apos;FinnerBonito&apos;</comment>
+  </data>
+  <data name="FinnerBonitoTextNombreDefaultText" xml:space="preserve">
+    <value>TextNombre</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FFormularioBonito.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FFormularioBonito</value>
+    <comment>Description for DomainClass &apos;FFormularioBonito&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FFormularioBonito.DisplayName" xml:space="preserve">
+    <value>FFormulario Bonito</value>
+    <comment>DisplayName for DomainClass &apos;FFormularioBonito&apos;</comment>
+  </data>
+  <data name="FFormularioBonitoTextNombreDefaultText" xml:space="preserve">
+    <value>TextNombre</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FColumna.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FColumna</value>
+    <comment>Description for DomainClass &apos;FColumna&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FColumna.DisplayName" xml:space="preserve">
+    <value>FColumna</value>
+    <comment>DisplayName for DomainClass &apos;FColumna&apos;</comment>
+  </data>
+  <data name="FColumnaTextNombreDefaultText" xml:space="preserve">
+    <value>TextNombre</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FTableBonita.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FTableBonita</value>
+    <comment>Description for DomainClass &apos;FTableBonita&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FTableBonita.DisplayName" xml:space="preserve">
+    <value>FTable Bonita</value>
+    <comment>DisplayName for DomainClass &apos;FTableBonita&apos;</comment>
+  </data>
+  <data name="FTableBonitaTextNombreDefaultText" xml:space="preserve">
+    <value>TextNombre</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FColumnaRenglon.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FColumnaRenglon</value>
+    <comment>Description for DomainClass &apos;FColumnaRenglon&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FColumnaRenglon.DisplayName" xml:space="preserve">
+    <value>FColumna Renglon</value>
+    <comment>DisplayName for DomainClass &apos;FColumnaRenglon&apos;</comment>
+  </data>
+  <data name="FColumnaRenglonTextNombreDefaultText" xml:space="preserve">
+    <value>TextNombre</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FRenglon.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FRenglon</value>
+    <comment>Description for DomainClass &apos;FRenglon&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FRenglon.DisplayName" xml:space="preserve">
+    <value>FRenglon</value>
+    <comment>DisplayName for DomainClass &apos;FRenglon&apos;</comment>
+  </data>
+  <data name="FRenglonTextNombreDefaultText" xml:space="preserve">
+    <value>TextNombre</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FTableFormal.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FTableFormal</value>
+    <comment>Description for DomainClass &apos;FTableFormal&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FTableFormal.DisplayName" xml:space="preserve">
+    <value>FTable Formal</value>
+    <comment>DisplayName for DomainClass &apos;FTableFormal&apos;</comment>
+  </data>
+  <data name="FTableFormalTextNombreDefaultText" xml:space="preserve">
+    <value>TextNombre</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FButtonPrimary.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FButtonPrimary</value>
+    <comment>Description for DomainClass &apos;FButtonPrimary&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FButtonPrimary.DisplayName" xml:space="preserve">
+    <value>FButton Primary</value>
+    <comment>DisplayName for DomainClass &apos;FButtonPrimary&apos;</comment>
+  </data>
+  <data name="FButtonPrimaryTextNombreDefaultText" xml:space="preserve">
+    <value>TextNombre</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FButtonInfo.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FButtonInfo</value>
+    <comment>Description for DomainClass &apos;FButtonInfo&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FButtonInfo.DisplayName" xml:space="preserve">
+    <value>FButton Info</value>
+    <comment>DisplayName for DomainClass &apos;FButtonInfo&apos;</comment>
+  </data>
+  <data name="FButtonInfoTextNombreDefaultText" xml:space="preserve">
+    <value>TextNombre</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FButtonWarning.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FButtonWarning</value>
+    <comment>Description for DomainClass &apos;FButtonWarning&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FButtonWarning.DisplayName" xml:space="preserve">
+    <value>FButton Warning</value>
+    <comment>DisplayName for DomainClass &apos;FButtonWarning&apos;</comment>
+  </data>
+  <data name="FButtonWarningTextNombreDefaultText" xml:space="preserve">
+    <value>TextNombre</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FButtonDanger.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FButtonDanger</value>
+    <comment>Description for DomainClass &apos;FButtonDanger&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FButtonDanger.DisplayName" xml:space="preserve">
+    <value>FButton Danger</value>
+    <comment>DisplayName for DomainClass &apos;FButtonDanger&apos;</comment>
+  </data>
+  <data name="FButtonDangerTextNombreDefaultText" xml:space="preserve">
+    <value>TextNombre</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FButtonSuccess.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FButtonSuccess</value>
+    <comment>Description for DomainClass &apos;FButtonSuccess&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FButtonSuccess.DisplayName" xml:space="preserve">
+    <value>FButton Success</value>
+    <comment>DisplayName for DomainClass &apos;FButtonSuccess&apos;</comment>
+  </data>
+  <data name="FButtonSuccessTextNombreDefaultText" xml:space="preserve">
+    <value>TextNombre</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FEntradaEmail.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FEntradaEmail</value>
+    <comment>Description for DomainClass &apos;FEntradaEmail&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FEntradaEmail.DisplayName" xml:space="preserve">
+    <value>FEntrada Email</value>
+    <comment>DisplayName for DomainClass &apos;FEntradaEmail&apos;</comment>
+  </data>
+  <data name="FEntradaEmailTextNameDefaultText" xml:space="preserve">
+    <value>TextName</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FEntradaPassword.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.FEntradaPassword</value>
+    <comment>Description for DomainClass &apos;FEntradaPassword&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.FEntradaPassword.DisplayName" xml:space="preserve">
+    <value>FEntrada Password</value>
+    <comment>DisplayName for DomainClass &apos;FEntradaPassword&apos;</comment>
+  </data>
+  <data name="FEntradaPasswordTextNameDefaultText" xml:space="preserve">
+    <value>TextName</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="FormatList" xml:space="preserve">
+    <value>DSLBootstrap (*.mydsl2)|*.mydsl2</value>
+    <comment>A list of file format specifiers for the Save dialog box</comment>
+  </data>
+  <data name="ModelExplorerTitle" xml:space="preserve">
+    <value>DSLBootstrap Explorer</value>
+    <comment>Model Explorer Toolwindow title</comment>
+  </data>
+  <data name="Company.DSLBootstrap.DSLBootstrapDiagram.Description" xml:space="preserve">
+    <value>Description for Company.DSLBootstrap.DSLBootstrapDiagram</value>
+    <comment>Description for DomainClass &apos;DSLBootstrapDiagram&apos;</comment>
+  </data>
+  <data name="Company.DSLBootstrap.DSLBootstrapDiagram.DisplayName" xml:space="preserve">
+    <value>Minimal Language Diagram</value>
+    <comment>DisplayName for DomainClass &apos;DSLBootstrapDiagram&apos;</comment>
+  </data>
+  <data name="DSLBootstrapToolboxTab" xml:space="preserve">
+    <value>DSLBootstrap</value>
+    <comment>Toolbox item tab name</comment>
+  </data>
+  <data name="ButtonToolboxItem" xml:space="preserve">
+    <value>Button</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="ButtonToolboxTooltip" xml:space="preserve">
+    <value>Button</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="TableFormalToolboxItem" xml:space="preserve">
+    <value>TableFormal</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="TableFormalToolboxTooltip" xml:space="preserve">
+    <value>Table Formal</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="InnerFormalToolboxItem" xml:space="preserve">
+    <value>InnerFormal</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="InnerFormalToolboxTooltip" xml:space="preserve">
+    <value>Inner Formal</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="EntradaToolboxItem" xml:space="preserve">
+    <value>Entrada</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="EntradaToolboxTooltip" xml:space="preserve">
+    <value>Entrada</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="EtiquetaToolboxItem" xml:space="preserve">
+    <value>Etiqueta</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="EtiquetaToolboxTooltip" xml:space="preserve">
+    <value>Etiqueta</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="BarradeprogresooToolboxItem" xml:space="preserve">
+    <value>Barradeprogresoo</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="BarradeprogresooToolboxTooltip" xml:space="preserve">
+    <value>Barradeprogresoo</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="FormularioFormalToolboxItem" xml:space="preserve">
+    <value>FormularioFormal</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="FormularioFormalToolboxTooltip" xml:space="preserve">
+    <value>Formulario Formal</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="FormularioBonitoToolboxItem" xml:space="preserve">
+    <value>FormularioBonito</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="FormularioBonitoToolboxTooltip" xml:space="preserve">
+    <value>Formulario Bonito</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="CheckBoxToolboxItem" xml:space="preserve">
+    <value>CheckBox</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="CheckBoxToolboxTooltip" xml:space="preserve">
+    <value>Check Box</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="ItemToolboxItem" xml:space="preserve">
+    <value>Item</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="ItemToolboxTooltip" xml:space="preserve">
+    <value>Item</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="ColumnaToolboxItem" xml:space="preserve">
+    <value>Columna</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="ColumnaToolboxTooltip" xml:space="preserve">
+    <value>Columna</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="RenglonToolboxItem" xml:space="preserve">
+    <value>Renglon</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="RenglonToolboxTooltip" xml:space="preserve">
+    <value>Renglon</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="InnerBonitoToolboxItem" xml:space="preserve">
+    <value>InnerBonito</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="InnerBonitoToolboxTooltip" xml:space="preserve">
+    <value>Inner Bonito</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="TableBonitaToolboxItem" xml:space="preserve">
+    <value>TableBonita</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="TableBonitaToolboxTooltip" xml:space="preserve">
+    <value>Table Bonita</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="RadioButtonToolboxItem" xml:space="preserve">
+    <value>RadioButton</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="RadioButtonToolboxTooltip" xml:space="preserve">
+    <value>Radio Button</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="TextRowToolboxItem" xml:space="preserve">
+    <value>TextRow</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="TextRowToolboxTooltip" xml:space="preserve">
+    <value>Text Row</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="SelectItemToolboxItem" xml:space="preserve">
+    <value>SelectItem</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="SelectItemToolboxTooltip" xml:space="preserve">
+    <value>Select Item</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="ColumnaRenglonToolboxItem" xml:space="preserve">
+    <value>ColumnaRenglon</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="ColumnaRenglonToolboxTooltip" xml:space="preserve">
+    <value>Columna Renglon</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="ButtonPrimaryToolboxItem" xml:space="preserve">
+    <value>ButtonPrimary</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="ButtonPrimaryToolboxTooltip" xml:space="preserve">
+    <value>Button Primary</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="ButtonWarningToolboxItem" xml:space="preserve">
+    <value>ButtonWarning</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="ButtonWarningToolboxTooltip" xml:space="preserve">
+    <value>Button Warning</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="ButtonSuccessToolboxItem" xml:space="preserve">
+    <value>ButtonSuccess</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="ButtonSuccessToolboxTooltip" xml:space="preserve">
+    <value>Button Success</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="ButtonInfoToolboxItem" xml:space="preserve">
+    <value>ButtonInfo</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="ButtonInfoToolboxTooltip" xml:space="preserve">
+    <value>Button Info</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="ButtonDangerToolboxItem" xml:space="preserve">
+    <value>ButtonDanger</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="ButtonDangerToolboxTooltip" xml:space="preserve">
+    <value>Button Danger</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="EntradaEmailToolboxItem" xml:space="preserve">
+    <value>EntradaEmail</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="EntradaEmailToolboxTooltip" xml:space="preserve">
+    <value>Entrada Email</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="EntradaPasswordToolboxItem" xml:space="preserve">
+    <value>EntradaPassword</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="EntradaPasswordToolboxTooltip" xml:space="preserve">
+    <value>Entrada Password</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="UnresolvedToolboxItem" xml:space="preserve">
+    <value>ToolboxItem {0} was not found</value>
+    <comment>Invalid toolId</comment>
+  </data>
+  <data name="UnsupportedToolboxFormat" xml:space="preserve">
+    <value>Unsupported toolbox format: {0}</value>
+    <comment>Unsupported format Id</comment>
+  </data>
+  <data name="UnrecognizedElementType" xml:space="preserve">
+    <value>ElementType {0} is not recognized as a type of domain class which belongs to this domain model.</value>
+    <comment>Incorrect ElementType passed in to Model.CreateElement method</comment>
+  </data>
+  <data name="UnrecognizedElementLinkType" xml:space="preserve">
+    <value>ElementLinkType {0} is not recognized as a type of domain relationship which belongs to this domain model.</value>
+    <comment>Incorrect ElementLinkType passed in to Model.CreateElementLink method</comment>
+  </data>
+  <data name="AmbiguousSchema" xml:space="preserve">
+    <value>More than one schema found for target namespace &apos;{0}&apos;, use the first one at &apos;{1}&apos;.</value>
+    <comment>Serialization Warning: AmbiguousSchema</comment>
+  </data>
+  <data name="ExpectingFullFormRelationship" xml:space="preserve">
+    <value>Element &apos;{0}&apos; is treated as the target role-player of a relationship &apos;{1}&apos; instance, which should be serialized in full-form.</value>
+    <comment>Serialization Warning: ExpectingFullFormRelationship</comment>
+  </data>
+  <data name="ExpectingShortFormRelationship" xml:space="preserve">
+    <value>Instances of relationship &apos;{0}&apos; should be serialized in short-form.</value>
+    <comment>Serialization Warning: ExpectingShortFormRelationship</comment>
+  </data>
+  <data name="IgnoredPropertyValue" xml:space="preserve">
+    <value>Invalid property value &apos;{0}&apos; for property &apos;{1}&apos; with type &apos;{2}&apos;, ignored.</value>
+    <comment>Serialization Warning: IgnoredPropertyValue</comment>
+  </data>
+  <data name="MissingId" xml:space="preserve">
+    <value>Missing &apos;Id&apos; attribute, a new Guid &apos;{0}&apos; is auto-generated.</value>
+    <comment>Serialization Warning: MissingId</comment>
+  </data>
+  <data name="MonikerResolvedToDuplicateLink" xml:space="preserve">
+    <value>Resolving moniker &apos;{0}&apos; causes a duplicate link to be created, so the link and the moniker are ignored.</value>
+    <comment>Serialization Warning: MonikerResolvedToDuplicateLink</comment>
+  </data>
+  <data name="NoSchema" xml:space="preserve">
+    <value>Cannot find a schema that defines target namespace &apos;{0}&apos;, schema validation skipped.</value>
+    <comment>Serialization Warning: NoSchema</comment>
+  </data>
+  <data name="UnexpectedXmlElement" xml:space="preserve">
+    <value>Unexpected XML element &apos;{0}&apos;, ignored.</value>
+    <comment>Serialization Warning: UnexpectedXmlElement</comment>
+  </data>
+  <data name="AmbiguousMoniker" xml:space="preserve">
+    <value>Ambiguous moniker &apos;{0}&apos; encountered. It is used for both &apos;{1}&apos; and &apos;{2}&apos;.</value>
+    <comment>Serialization Error: AmbiguousMoniker</comment>
+  </data>
+  <data name="CannotMonikerizeElement" xml:space="preserve">
+    <value>Instances of DomainClass &apos;{0}&apos; cannot be serialized as a moniker.
+A DomainClass can be serialized as a moniker only if 
+1) it has a defined/inherited DomainProperty marked as IsMonikerKey=true, or 
+2) it is marked/inherited with SerializeId=true.</value>
+    <comment>Serialization Error: CannotMonikerizeElement</comment>
+  </data>
+  <data name="CannotOpenDocument" xml:space="preserve">
+    <value>Error encountered, check Error List window for details.</value>
+    <comment>Serialization Error: CannotOpenDocument</comment>
+  </data>
+  <data name="CannotSaveDocument" xml:space="preserve">
+    <value>Error encountered, check Error List window for details.</value>
+    <comment>Serialization Error: CannotSaveDocument</comment>
+  </data>
+  <data name="DanglingRelationship" xml:space="preserve">
+    <value>Relationship &apos;{0}&apos; instance is missing target role-player.</value>
+    <comment>Serialization Error: DanglingRelationship</comment>
+  </data>
+  <data name="InvalidPropertyValue" xml:space="preserve">
+    <value>Invalid property value &apos;{0}&apos; for property &apos;{1}&apos; with type &apos;{2}&apos;.</value>
+    <comment>Serialization Error: InvalidPropertyValue</comment>
+  </data>
+  <data name="MissingMoniker" xml:space="preserve">
+    <value>Missing moniker. A moniker is expected in attribute &apos;{0}&apos;.</value>
+    <comment>Serialization Error: MissingMoniker</comment>
+  </data>
+  <data name="MissingTransaction" xml:space="preserve">
+    <value>This must be called within the context of an active transaction.</value>
+    <comment>Serialization Error: MissingTransaction</comment>
+  </data>
+  <data name="UnresolvedMoniker" xml:space="preserve">
+    <value>Cannot resolve moniker &apos;{0}&apos;.</value>
+    <comment>Serialization Error: UnresolvedMoniker</comment>
+  </data>
+  <data name="VersionMismatch" xml:space="preserve">
+    <value>Unsupported version &apos;{0}&apos;, can only support &apos;{1}&apos;.</value>
+    <comment>Serialization Error: VersionMismatch</comment>
+  </data>
+  <data name="CannotCloseExistingDiagramDocument" xml:space="preserve">
+    <value>Diagram file &apos;{0}&apos; cannot be closed.</value>
+    <comment>User cancel closing diagram file. Hence, the DSL model file cannot be opened</comment>
+  </data>
+  <data name="BindingErrorOccurred" xml:space="preserve">
+    <value>Extensions for this designer may not be found as a MEF binding error has occurred. The error that occurred was:
+{0}</value>
+    <comment>MEF binding error occurred - exception message being logged in the error window so the user is aware.</comment>
+  </data>
+  <data name="InvalidSaveRootElementType" xml:space="preserve">
+    <value>&apos;{0}&apos; is not a valid root element type.</value>
+    <comment>Exception message used if an invalid root element type is passed to IDomainModelSerializer.SaveModel / SaveModelAndDiagram</comment>
+  </data>
+  <data name="InvalidSaveDiagramType" xml:space="preserve">
+    <value>&apos;{0}&apos; is not a valid diagram type.</value>
+    <comment>Exception message used if an invalid diagram type is passed to IDomainModelSerializer.SaveModelAndDiagram</comment>
+  </data>
+  <data name="MinimumMultiplicityMissingLink" xml:space="preserve">
+    <value>{0} {1} has no {2}.</value>
+    <comment>Multiplicity underflow validation.</comment>
+  </data>
+  <data name="SaveOperationCancelled" xml:space="preserve">
+    <value>Save operation cancelled.</value>
+    <comment>Message when save is cancelled on validation errors</comment>
+  </data>
+  <data name="SaveValidationFailed" xml:space="preserve">
+    <value>There were validation errors, continue save?</value>
+    <comment>Message when validation errors are found on save</comment>
+  </data>
+  <data name="UnloadableSaveValidationFailed" xml:space="preserve">
+    <value>There were validation errors. Continuing to save may cause the file to become unloadable, do you want to continue?</value>
+    <comment>Message when validation errors are found on save that will cause file to become unloadable</comment>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="FEditItemImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\Imageninner.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>FEditItem shape image</comment>
+  </data>
+  <data name="FbuttonImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\default.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Fbutton shape image</comment>
+  </data>
+  <data name="FBarradeprogresoImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\progressbar.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>FBarradeprogreso shape image</comment>
+  </data>
+  <data name="FEtiquetaImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\formulariof.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>FEtiqueta shape image</comment>
+  </data>
+  <data name="FentradaImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\entrada.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Fentrada shape image</comment>
+  </data>
+  <data name="FCheckBoxImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\checkbox1.bmp;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>FCheckBox shape image</comment>
+  </data>
+  <data name="FRadioButtonImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\radiobutton.bmp;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>FRadioButton shape image</comment>
+  </data>
+  <data name="FTextRowImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\area.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>FTextRow shape image</comment>
+  </data>
+  <data name="FSelectImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\select.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>FSelect shape image</comment>
+  </data>
+  <data name="FFormularioFormalImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\formaa.jpeg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>FFormularioFormal shape image</comment>
+  </data>
+  <data name="FinnerFormalImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\carrucel.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>FinnerFormal shape image</comment>
+  </data>
+  <data name="FinnerBonitoImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\carrucel - copia.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>FinnerBonito shape image</comment>
+  </data>
+  <data name="FFormularioBonitoImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\Formulariobo.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>FFormularioBonito shape image</comment>
+  </data>
+  <data name="FColumnaImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\columna.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>FColumna shape image</comment>
+  </data>
+  <data name="FTableBonitaImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\Tablebonita.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>FTableBonita shape image</comment>
+  </data>
+  <data name="FColumnaRenglonImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\columna.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>FColumnaRenglon shape image</comment>
+  </data>
+  <data name="FRenglonImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\renglon.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>FRenglon shape image</comment>
+  </data>
+  <data name="FTableFormalImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\Tableformal.jpg;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>FTableFormal shape image</comment>
+  </data>
+  <data name="FButtonPrimaryImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\primary2.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>FButtonPrimary shape image</comment>
+  </data>
+  <data name="FButtonInfoImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\info.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>FButtonInfo shape image</comment>
+  </data>
+  <data name="FButtonWarningImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\warning.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>FButtonWarning shape image</comment>
+  </data>
+  <data name="FButtonDangerImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\danger.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>FButtonDanger shape image</comment>
+  </data>
+  <data name="FButtonSuccessImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\succcess.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>FButtonSuccess shape image</comment>
+  </data>
+  <data name="FEntradaEmailImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\ejemplo@bootstrap.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>FEntradaEmail shape image</comment>
+  </data>
+  <data name="FEntradaPasswordImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\pass.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>FEntradaPassword shape image</comment>
+  </data>
+  <data name="ButtonToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\default - copia.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="TableFormalToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\tabla.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="InnerFormalToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\Inner.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="EntradaToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\barranavegacion.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="EtiquetaToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\Etiqueta.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="BarradeprogresooToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\barra.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="FormularioFormalToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\forma.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="FormularioBonitoToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\formabo.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="CheckBoxToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\checkbox1.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="ItemToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\item.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="ColumnaToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\column.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="RenglonToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\renglon.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="InnerBonitoToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\innerbonito.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="TableBonitaToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\tabla - copia.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="RadioButtonToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\radiobutton.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="TextRowToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\textrow.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="SelectItemToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\Select.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="ColumnaRenglonToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\column.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="ButtonPrimaryToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\primary - copia.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="ButtonWarningToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\warning - copia.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="ButtonSuccessToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\succcess - copia.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="ButtonInfoToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\info - copia.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="ButtonDangerToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\danger - copia.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="EntradaEmailToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\barranavegacion.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="EntradaPasswordToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\barranavegacion.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+</root>
+
+

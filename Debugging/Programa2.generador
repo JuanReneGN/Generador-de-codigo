@@ -1,0 +1,206 @@
+﻿<#@ template inherits=
+      "Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation"#>
+<#@ DSLBootstrap processor="DSLBootstrapDirectiveProcessor"
+requires="filename='BootstrapBonito.mydsl2'"#>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>DSL Tools Bootstrap</title>
+<link href="http://bootstrapdocs.com/v2.3.1/docs/assets/css/bootstrap.css" rel="stylesheet">
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="http://bootstrapdocs.com/v2.0.3/docs/assets/js/bootstrap-carousel.js"></script>
+<# foreach (FormularioBonito fb in this.PaginaWeb.Formulario) {#>
+		<style>
+		.table-hover tbody tr:hover > td,
+		.table-hover tbody tr:hover > th {
+  		background-color: #c9c9c9;
+		}
+
+		  {
+font-size : 1em ;
+ line-height : 1.25em ;
+ margen : 1.25em 0 ;
+ text-align : center ;
+}
+
+[class*="span"]{
+			background-color:#0a9;
+			font-weight: bold;
+			text-align: center;
+			margin-top: 10px;
+			margin-bottom: 10px; 
+
+		}
+.carousel-inner {
+  position: center;
+  width: 60%;
+  overflow: hidden;
+}
+}
+	</style>
+
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+			<div class="span12">
+				<h2>FORMULARIO BONITO</h2>
+					<form class="contact_form" action="/signup" method="post">
+						<fieldset>
+						<legend><article>
+							<p>DSL TOOLS BOOTSTRAP</p>
+							</article>
+							  </legend>
+     
+				<# foreach (Etiquetas etiq in fb.Etiquetas) {#>
+				<fieldset>
+					<label for="Name">Etiqueta </label>
+			    </fieldset>
+				<#}#>
+				<# foreach (Entrada entr in fb.Entrada) {#>
+				<fieldset>
+					<input type="text" placeholder="Text">
+			    </fieldset>
+				<#}#>
+				<# foreach (EntradaEmail entrE in fb.EntradaEmails) {#>
+				<fieldset>
+					<input type="email" placeholder="@_Email">
+			    </fieldset>
+				<#}#>
+				<# foreach (EntradaPassword entrP in fb.EntradaPasswords) {#>
+				<fieldset>
+					<input type="password" placeholder="Password">
+				</fieldset>
+				<#}#>
+				<# foreach (Select selc in fb.Selecting) {#>
+				<fieldset>
+					<select id="UserInfo_HowHeard_SelectedValue">
+						<option>Example1 </option>
+						<option>Example2 </option>
+						<option>Example3 </option>
+						<option>Example4 </option>
+					</select>
+			</fieldset>
+				<#}#>
+		
+				<# foreach (CheckBox chbx in fb.CheckBoxes) {#>
+					<input class="radio inline" type="checkbox" value"">
+				<#}#>
+				<# foreach (RadioButton rbtn in fb.RadioButtons) {#>
+						<input class="radio inline" type="radio" name="optionRadio">
+				<#}#>
+				<# foreach (TextRow txrws in fb.TextRows) {#>
+					<textarea class="span5" class="input-block-level" id="describe" rows="3"></textarea>
+				<#}#>
+					
+				<# foreach (EditButton btn in fb.EditButtons) {#>
+                   <button type="button" class="btn btn-lg btn-default">Default</button>	
+                <#}#>
+               <# foreach (ButtonPrimary btnp in fb.ButtonPrimaries) {#>
+                    <button type="button" class="btn btn-lg btn-primary">Primary</button>					
+                <#}#>
+               <# foreach (ButtonSuccess btnS in fb.ButtonSuccesses) {#>
+                    <button type="button" class="btn btn-lg btn-success">Success</button>					
+                <#}#>
+               <# foreach (ButtonInfo btnI in fb.ButtonInfo) {#>
+                    <button type="button" class="btn btn-lg btn-info">Info</button>					
+                <#}#>
+               <# foreach (ButtonWarning btnW in fb.ButtonWarnings) {#>
+                    <button type="button" class="btn btn-lg btn-warning">Warning</button>					
+                <#}#>
+                    <# foreach (ButtonDanger btnD in fb.ButtonDangers) {#>
+                     <button type="button" class="btn btn-lg btn-danger">Danger</button>					
+                <#}#>
+				<# foreach (Barradeprogreso btnD in fb.Barradeprogreso) {#>
+                   <div class="progress progress-striped active">  
+                          <div class="bar" style="width: 50%;"></div>  
+                   </div> 					
+                <#}#>
+				</fieldset>
+			</form>
+		</div>
+	</div>
+</div>
+<#}#>
+
+<# foreach (TableBonita tb in this.PaginaWeb.Tables) {#>
+
+<style>
+.table-hover tbody tr:hover td,
+.table-hover tbody tr:hover th{
+background-color: #c9c9c9;
+}
+
+</style>
+ </head>
+<body>
+<div class="container">
+<div class="row">
+<div class="span12">
+<table class="table table-striped table-bordered table-hover table-condensed">
+  <caption>My pluralsight Courses </caption>
+  <thead>
+<tr>
+     <# foreach (Columnas columb in tb.Columnas) 
+				{
+				#>
+                  <th>TEXTO COLUMNA</th>
+				<#}#>
+		</tr>
+</thead>
+<tbody>
+		<# foreach (Renglones renb in tb.Renglones) 
+		{#>
+		
+			 <tr>
+
+			 <# foreach (ColumnaRenglon rencob in renb.ColumnaRenglon) 
+		     {#>
+			 <td>TEXTO RENGLON</td>
+		     <#}#>
+			 </tr>
+				
+      
+		<#}#>
+
+	 </tbody>
+
+</table>
+<#}#>
+
+<# foreach (InnerBonito Innerb in this.PaginaWeb.Inners) {#>
+<div id="slidingcarousel" class="carousel slide">
+		<div class="carousel-inner">
+
+		<# foreach (EditItem ite in Innerb.EditItems) 
+				{
+				#>
+	          <div class="item">
+				<img src="http://www.androwedia.com/img/twitterBootstrap.jpg"/>
+				<div class="carousel-caption">
+					<h4>TITUOLO IMAGEN</h4>
+					<p>Descripcion</p>
+				</div>
+			</div>
+				<#}#>
+
+		<a class="carousel-control left" href="#slidingcarousel" data-slide="prev">&lsaquo;</a>
+			<a class="carousel-control right" href="#slidingcarousel" data-slide="next">&rsaquo;</a>
+		</div>
+<script>
+	
+$(function () {
+	$('.carousel').carousel({
+		interval: 2000
+	});
+});
+</script>
+	</div>
+<#}#>
+
+
+
+	</body>
+</html>

@@ -1,0 +1,16 @@
+﻿<!--DSL Tools Language Template-->
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<TemplateData>
+		<Name Package="{61852a7e-eae0-4084-a590-b3deea4bfcff}" ID="103"/>
+		<Description Package="{61852a7e-eae0-4084-a590-b3deea4bfcff}" ID="102"/>
+		<Icon Package="{61852a7e-eae0-4084-a590-b3deea4bfcff}" ID="201" />
+		<ProjectType>VisualBasic</ProjectType>
+		<SortOrder>360</SortOrder>
+		<DefaultName>DSLBootstrap.mydsl2</DefaultName>
+	</TemplateData>
+	<TemplateContent>
+		<ProjectItem TargetFileName="$fileinputname$.mydsl2">mydsl2.mydsl2</ProjectItem>
+		<ProjectItem TargetFileName="$fileinputname$.mydsl2.diagram">mydsl2.diagram</ProjectItem>
+	</TemplateContent>
+</VSTemplate>
+

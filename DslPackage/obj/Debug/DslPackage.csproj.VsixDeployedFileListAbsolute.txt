@@ -1,0 +1,8 @@
+C:\Users\SPH\AppData\Local\Microsoft\VisualStudio\10.0Exp\Extensions\Company\DSLBootstrap\1.0.0.0\ItemTemplates\CSharp\1033\\DSLBootstrap.zip
+C:\Users\SPH\AppData\Local\Microsoft\VisualStudio\10.0Exp\Extensions\Company\DSLBootstrap\1.0.0.0\ItemTemplates\VisualBasic\1033\\DSLBootstrap.zip
+C:\Users\SPH\AppData\Local\Microsoft\VisualStudio\10.0Exp\Extensions\Company\DSLBootstrap\1.0.0.0\\Company.DSLBootstrap.DslPackage.dll
+C:\Users\SPH\AppData\Local\Microsoft\VisualStudio\10.0Exp\Extensions\Company\DSLBootstrap\1.0.0.0\\Company.DSLBootstrap.Dsl.dll
+C:\Users\SPH\AppData\Local\Microsoft\VisualStudio\10.0Exp\Extensions\Company\DSLBootstrap\1.0.0.0\\Company.DSLBootstrap.DslPackage.pkgdef
+C:\Users\SPH\AppData\Local\Microsoft\VisualStudio\10.0Exp\Extensions\Company\DSLBootstrap\1.0.0.0\\extension.vsixmanifest
+C:\Users\SPH\AppData\Local\Microsoft\VisualStudio\10.0Exp\Extensions\Company\DSLBootstrap\1.0.0.0\\Company.DSLBootstrap.DslPackage.pdb
+C:\Users\SPH\AppData\Local\Microsoft\VisualStudio\10.0Exp\Extensions\Company\DSLBootstrap\1.0.0.0\\Company.DSLBootstrap.Dsl.pdb

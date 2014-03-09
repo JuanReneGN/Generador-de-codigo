@@ -1,0 +1,2 @@
+C:\Users\SPH\Documents\Visual Studio 2010\Templates\ItemTemplates\CSharp\1033\DSLBootstrap.zip
+C:\Users\SPH\Documents\Visual Studio 2010\Templates\ItemTemplates\VisualBasic\1033\DSLBootstrap.zip

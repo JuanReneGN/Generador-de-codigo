@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dSLBootstrapDiagram dslVersion="1.0.0.0" Id="e020c01f-2422-43f3-943c-c9522c62df6c" absoluteBounds="0, 0, 11, 13.25" name="Bootstrap">
+  <paginaWebMoniker Id="30f7b98a-83d6-4f98-9070-06b4a5aeacb7" />
+  <nestedChildShapes>
+    <fFormularioFormal Id="38151967-01b1-44ac-a63f-4344c1943f98" absoluteBounds="0.5, 0.5, 6, 5">
+      <formularioFormalMoniker Id="497313f8-9098-4585-aee1-57b2425082ea" />
+      <relativeChildShapes />
+    </fFormularioFormal>
+    <fButtonDanger Id="8ba4abb3-20e4-42a7-b43a-c7f1f461c14c" absoluteBounds="5, 4, 1, 0.6">
+      <buttonDangerMoniker Id="67d33a17-da1e-4090-bab0-eba2d2c1c276" />
+    </fButtonDanger>
+    <fButtonInfo Id="f09ad4cc-4bff-4b17-94e2-0f4a0e2692d1" absoluteBounds="0.75, 3, 1, 0.6">
+      <buttonInfoMoniker Id="ea7856ac-242f-45f6-aab6-240680c87b47" />
+    </fButtonInfo>
+    <fButtonPrimary Id="c468349b-575d-4753-8d43-55ca143e7b36" absoluteBounds="0.75, 3.75, 1, 0.6">
+      <buttonPrimaryMoniker Id="94b8beaa-d3be-494d-a8e6-e53914c9275a" />
+    </fButtonPrimary>
+    <fButtonSuccess Id="1369389c-fc83-4187-ae6d-b27a961e5eb9" absoluteBounds="5, 3.5, 1, 0.6">
+      <buttonSuccessMoniker Id="9e99b810-66fc-4c69-b317-114ee46f1b54" />
+    </fButtonSuccess>
+    <fbutton Id="a017e7c9-e147-434b-b33d-13dabe88fec3" absoluteBounds="1, 0.75, 1, 0.6">
+      <editButtonMoniker Id="e7d18b12-e86a-44ce-9d84-43d2d0c8a9c1" />
+    </fbutton>
+    <fButtonWarning Id="dd68178a-03af-48ce-b366-95cfdf34f463" absoluteBounds="5, 3, 1, 0.6">
+      <buttonWarningMoniker Id="e402029c-7803-4f9a-8d1e-11b819f8b125" />
+    </fButtonWarning>
+    <fentrada Id="45e92784-b3c9-4a96-84b7-273da6bf17cc" absoluteBounds="2.125, 0.875, 2.5, 0.3">
+      <entradaMoniker Id="2cfceb34-7fb4-4035-96b8-903eb8a35085" />
+    </fentrada>
+    <fEntradaPassword Id="1dbf38ef-7003-4ed0-9757-131887de9f07" absoluteBounds="2.125, 1.375, 2.5, 0.3">
+      <entradaPasswordMoniker Id="1db00ca6-8ddd-484a-b241-bd610551a878" />
+    </fEntradaPassword>
+    <fEntradaEmail Id="b3e83b95-150f-464a-874a-337e89673f28" absoluteBounds="2.125, 1.875, 2.5, 0.3">
+      <entradaEmailMoniker Id="67ce201f-3c21-4ecb-bf6d-5df9fd2b99a2" />
+    </fEntradaEmail>
+    <fTextRow Id="3e9d6082-9d2d-4870-a605-8ecd94dc26c0" absoluteBounds="2, 3.125, 3, 1.5">
+      <textRowMoniker Id="8142120c-e3c7-477b-bf83-2c6e376dfb41" />
+    </fTextRow>
+    <fEtiqueta Id="e94ecf4b-94e2-4592-98f1-2f847a2b4293" absoluteBounds="2.875, 0.75, 1, 0.125">
+      <etiquetasMoniker Id="9a2d3952-6e95-4845-8884-3bb5da95c667" />
+    </fEtiqueta>
+    <fEtiqueta Id="15384e57-33da-4eac-af82-0a1757fdc7cd" absoluteBounds="2.875, 1.25, 1, 0.125">
+      <etiquetasMoniker Id="0bcdf90c-83c7-4789-8d81-d7c51c8b281c" />
+    </fEtiqueta>
+    <fEtiqueta Id="f018c17c-8ccb-422d-9d03-16a5d2cd8736" absoluteBounds="2.875, 1.75, 1, 0.125">
+      <etiquetasMoniker Id="f2342531-c11a-4799-b95a-7c851ae2e647" />
+    </fEtiqueta>
+    <fCheckBox Id="dc497ca6-b6fa-41f4-8869-c2129fdfe54c" absoluteBounds="1.875, 2, 0.125, 0.125">
+      <checkBoxMoniker Id="50810c23-8a1f-47ee-b1d9-c8c70ba6c762" />
+    </fCheckBox>
+    <fCheckBox Id="b21c6bac-610f-498c-a1f2-9ecdb63633a5" absoluteBounds="1.625, 2, 0.125, 0.125">
+      <checkBoxMoniker Id="82afe38f-4c6a-4955-8b79-211fae1e1f24" />
+    </fCheckBox>
+    <fRadioButton Id="88556aae-3221-4957-971e-23a2c67b7eb9" absoluteBounds="1.875, 1.5, 0.125, 0.125">
+      <radioButtonMoniker Id="ec07b5c2-ad18-431e-83ed-ffd9369f0c52" />
+    </fRadioButton>
+    <fRadioButton Id="3c95a013-6a91-4d0e-87d0-37105be0973d" absoluteBounds="1.625, 1.5, 0.125, 0.125">
+      <radioButtonMoniker Id="8e249e35-8fb7-434a-bfaf-0773d971cfce" />
+    </fRadioButton>
+    <finnerFormal Id="6a637c2c-c49a-415e-85cf-cdab802c586d" absoluteBounds="0.5, 5.875, 6, 3.5">
+      <innerFormalMoniker Id="fdd8b78e-5ec8-4c6c-bc60-f7d808899eaf" />
+      <relativeChildShapes />
+    </finnerFormal>
+    <fEditItem Id="1872f6c2-75bb-4550-a21a-d2e65331052c" absoluteBounds="1.5, 6.75, 1.1, 1.1">
+      <editItemMoniker Id="beef6723-c5d8-4944-bf22-6f7e30ac00b3" />
+      <relativeChildShapes />
+    </fEditItem>
+    <fEditItem Id="ee04d03d-719b-4d24-b8c1-788fce8ecd2b" absoluteBounds="2.875, 6.75, 1.1, 1.1">
+      <editItemMoniker Id="504eeb7f-d609-445c-a394-226afac1ac18" />
+      <relativeChildShapes />
+    </fEditItem>
+    <fEditItem Id="a770be80-b472-4e23-ad83-0a60c8d8bd05" absoluteBounds="4.375, 6.75, 1.1, 1.1">
+      <editItemMoniker Id="01a64b76-3b76-4092-a645-d0279a668ad8" />
+      <relativeChildShapes />
+    </fEditItem>
+    <fSelect Id="0fe9224a-9b2c-426d-ba6a-6221ea3113f9" absoluteBounds="2.375, 2.5, 2, 0.3">
+      <selectMoniker Id="8fc7b4ac-e753-40f3-abe3-bb97e4e3fd0c" />
+    </fSelect>
+    <fBarradeprogreso Id="05683c0e-4e14-4fcc-b38e-1cad74fac545" absoluteBounds="1.625, 4.875, 3.5, 0.2">
+      <barradeprogresoMoniker Id="c9e18b2f-8473-4d4e-b371-d3203a09c761" />
+    </fBarradeprogreso>
+    <fTableFormal Id="477c7555-178a-402b-acce-11416268f2c2" absoluteBounds="0.75, 9.5, 4.5, 3.5">
+      <tableFormalMoniker Id="5edfdeb3-c645-49f4-bef9-4075f4b8b62c" />
+      <relativeChildShapes />
+    </fTableFormal>
+    <fColumna Id="46832185-5a11-4498-af54-00877cc0b258" absoluteBounds="1, 9.75, 1, 0.5">
+      <columnasMoniker Id="062f6817-7eec-43ca-9628-081b5f689f2e" />
+    </fColumna>
+    <fColumna Id="2d9cd4de-c6e6-4441-892c-21f57ba6cc72" absoluteBounds="2, 9.75, 1, 0.5">
+      <columnasMoniker Id="9850930e-e0a2-405b-ab17-11adecee0498" />
+    </fColumna>
+    <fColumna Id="e92cabe9-aeb9-401c-bac3-86f3bd219e31" absoluteBounds="3, 9.75, 1, 0.5">
+      <columnasMoniker Id="033e5af5-fc78-41ba-9ec3-94e1b64e03a8" />
+    </fColumna>
+    <fRenglon Id="ce3f216d-00e0-4604-a963-9b64d19553bc" absoluteBounds="1, 10.25, 4, 0.5">
+      <renglonesMoniker Id="f96b48bf-9fb1-4b7b-bab3-f5e441a78c79" />
+    </fRenglon>
+    <fColumnaRenglon Id="e1b47efb-7d44-49f2-b92d-34f7e061f951" absoluteBounds="1, 10.25, 1, 0.5">
+      <columnaRenglonMoniker Id="58699958-bf7f-4285-965e-ede3215a2571" />
+    </fColumnaRenglon>
+    <fColumnaRenglon Id="c29a437c-1a56-45fa-9b40-dcaca53a7c12" absoluteBounds="2, 10.25, 1, 0.5">
+      <columnaRenglonMoniker Id="cefcbcc1-b64b-4a54-9da2-117e9f42a021" />
+    </fColumnaRenglon>
+    <fColumnaRenglon Id="1cca8f39-5e12-4e07-956f-97e0ae68bdde" absoluteBounds="3, 10.25, 1, 0.5">
+      <columnaRenglonMoniker Id="747e2a9c-d5f9-4c42-9ced-17c7e4488b46" />
+    </fColumnaRenglon>
+    <fColumna Id="eb2a33bd-bfea-46a4-8ba1-56226cc4e1eb" absoluteBounds="4, 9.75, 1, 0.5">
+      <columnasMoniker Id="2ef152cb-0c86-4c3a-beba-7bf7218a2aab" />
+    </fColumna>
+    <fColumnaRenglon Id="125073e5-2149-4eca-b8aa-11c6325001ca" absoluteBounds="4, 10.25, 1, 0.5">
+      <columnaRenglonMoniker Id="22b90dd5-686c-422a-bd9a-91e888d93fb9" />
+    </fColumnaRenglon>
+  </nestedChildShapes>
+</dSLBootstrapDiagram>

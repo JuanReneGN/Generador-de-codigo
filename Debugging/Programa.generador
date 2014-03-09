@@ -1,0 +1,181 @@
+﻿<#@ template inherits=
+      "Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation"#>
+<#@ DSLBootstrap processor="DSLBootstrapDirectiveProcessor"
+requires="filename='Bootstrap.mydsl2'"#>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>DSL Tools Bootstrap</title>
+<link href="http://bootstrapdocs.com/v2.3.1/docs/assets/css/bootstrap.css" rel="stylesheet">
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="http://bootstrapdocs.com/v2.0.3/docs/assets/js/bootstrap-carousel.js"></script>
+<# foreach (FormularioFormal ff in this.PaginaWeb.Formulario) {#>
+		<style>
+			.table-hover tbody tr:hover > td,
+			.table-hover tbody tr:hover > th {
+			background-color:#c9c9c9;
+			}
+  {
+font-size : 1em ;
+ line-height : 1.25em ;
+ margen : 1.25em 0 ;
+ text-align : center ;
+}
+.carousel-inner {
+  position: center;
+  width: 60%;
+  overflow: hidden;
+}
+		</style>
+
+		</head>
+		<body>
+
+		<div class="container">
+	<div class="row">
+		<div class="span12">
+			<h2>FORMULARIO FORMAL</h2>
+			<form class="contact_form" action="/signup" method="post">
+				<fieldset>
+				<# foreach (Etiquetas etiq in ff.Etiquetas) {#>
+					<label for="Name">Etiqueta </label>
+				<#}#>
+				<# foreach (Entrada entr in ff.Entrada) {#>
+					<input type="text">
+				<#}#>
+				<# foreach (EntradaEmail entrE in ff.EntradaEmails) {#>
+					<input type="email">
+				<#}#>
+				<# foreach (EntradaPassword entrP in ff.EntradaPasswords) {#>
+					<input type="password">
+				<#}#>
+				<# foreach (Select selc in ff.Selecting) {#>
+					<select id="name">
+						<option>Example1 </option>
+						<option>Example2 </option>
+						<option>Example3 </option>
+						<option>Example4 </option>
+					</select>
+				<#}#>
+				<# foreach (CheckBox chbx in ff.CheckBoxes) {#>
+					<input type="checkbox" value"">
+				<#}#>
+				<# foreach (RadioButton rbtn in ff.RadioButtons) {#>
+					<input type="radio" name="optionRadio">
+				<#}#>
+				<# foreach (TextRow txrws in ff.TextRows) {#>
+						<textarea class="span5" class="input-block-level" id="describe" rows="3"></textarea>
+				<#}#>
+				
+				<# foreach (EditButton btn in ff.EditButtons) {#>
+                   <button type="button" class="btn btn-lg btn-default">Default</button>	
+                <#}#>
+               <# foreach (ButtonPrimary btnp in ff.ButtonPrimaries) {#>
+                    <button type="button" class="btn btn-lg btn-primary">Primary</button>					
+                <#}#>
+               <# foreach (ButtonSuccess btnS in ff.ButtonSuccesses) {#>
+                    <button type="button" class="btn btn-lg btn-success">Success</button>					
+                <#}#>
+               <# foreach (ButtonInfo btnI in ff.ButtonInfo) {#>
+                    <button type="button" class="btn btn-lg btn-info">Info</button>					
+                <#}#>
+               <# foreach (ButtonWarning btnW in ff.ButtonWarnings) {#>
+                    <button type="button" class="btn btn-lg btn-warning">Warning</button>					
+                <#}#>
+                    <# foreach (ButtonDanger btnD in ff.ButtonDangers) {#>
+                     <button type="button" class="btn btn-lg btn-danger">Danger</button>					
+                <#}#>
+
+                    <# foreach (Barradeprogreso btnD in ff.Barradeprogreso) {#>
+                    <div class="progress progress-striped">  
+                            <div class="bar" style="width: 60%;"></div>  
+                    </div> 					
+                <#}#>
+
+   				</fieldset>
+			</form>
+		</div>
+	</div>
+</div>
+<#}#>
+
+
+
+<# foreach (InnerFormal Inner in this.PaginaWeb.Inners) {#>
+<div id="slidingcarousel" class="carousel slide">
+		<div class="carousel-inner">
+
+		<# foreach (EditItem ite in Inner.EditItems) 
+				{
+				#>
+	          <div class="item">
+				<img src="http://alanchavez.com/wp-content/uploads/2013/09/Twitter-Bootstrap-Logo.jpg"/>
+				<div class="carousel-caption">
+					<h4>TITUOLO IMAGEN</h4>
+					<p>Descripcion</p>
+				</div>
+			</div>
+				<#}#>
+
+		<a class="carousel-control left" href="#slidingcarousel" data-slide="prev">&lsaquo;</a>
+			<a class="carousel-control right" href="#slidingcarousel" data-slide="next">&rsaquo;</a>
+		</div>
+<script>
+	
+$(function () {
+	$('.carousel').carousel({
+		interval: 2000
+	});
+});
+</script>
+	</div>
+<#}#>
+
+<# foreach (TableFormal tf in this.PaginaWeb.Tables) {#>
+
+<style>
+.table-hover tbody tr:hover td,
+.table-hover tbody tr:hover th{
+background-color: #c9c9c9;
+}
+
+</style>
+ </head>
+<body>
+<div class="container">
+<div class="row">
+<div class="span12">
+<table class="table  table-bordered table-condensed">
+  <caption>My pluralsight Courses </caption>
+  <thead>
+<tr>
+     <# foreach (Columnas colum in tf.Columnas) 
+				{
+				#>
+                  <th>TEXTO COLUMNA</th>
+				<#}#>
+		</tr>
+</thead>
+
+		<# foreach (Renglones ren in tf.Renglones) 
+		{#>
+		<tbody>
+			 <tr>
+
+			 <# foreach (ColumnaRenglon renco in ren.ColumnaRenglon) 
+		     {#>
+			 <td>TEXTO RENGLON</td>
+		     <#}#>
+			 </tr>
+				
+       </tbody>
+		<#}#>
+
+	
+
+</table>
+<#}#>
+
+	</body>
+</html>

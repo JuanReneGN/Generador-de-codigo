@@ -1,0 +1,26 @@
+c:\users\omar\documents\visual studio 2010\Projects\GeneradorBootstrap\Dsl\bin\Debug\GeneratedCode\DSLBootstrapSchema.xsd
+c:\users\omar\documents\visual studio 2010\Projects\GeneradorBootstrap\Dsl\bin\Debug\Company.DSLBootstrap.Dsl.dll
+c:\users\omar\documents\visual studio 2010\Projects\GeneradorBootstrap\Dsl\bin\Debug\Company.DSLBootstrap.Dsl.pdb
+c:\users\omar\documents\visual studio 2010\Projects\GeneradorBootstrap\Dsl\bin\Debug\Microsoft.VisualStudio.Modeling.Sdk.Diagrams.GraphObject.10.0.dll
+c:\users\omar\documents\visual studio 2010\Projects\GeneradorBootstrap\Dsl\obj\Debug\Company.DSLBootstrap.GeneratedCode.DomainModelResx.resources
+c:\users\omar\documents\visual studio 2010\Projects\GeneradorBootstrap\Dsl\obj\Debug\Dsl.csproj.GenerateResource.Cache
+c:\users\omar\documents\visual studio 2010\Projects\GeneradorBootstrap\Dsl\obj\Debug\Company.DSLBootstrap.Dsl.dll
+c:\users\omar\documents\visual studio 2010\Projects\GeneradorBootstrap\Dsl\obj\Debug\Company.DSLBootstrap.Dsl.pdb
+C:\Users\SPH\Pictures\GeneradorBootstrap\Dsl\bin\Debug\GeneratedCode\DSLBootstrapSchema.xsd
+C:\Users\SPH\Pictures\GeneradorBootstrap\Dsl\bin\Debug\Company.DSLBootstrap.Dsl.dll
+C:\Users\SPH\Pictures\GeneradorBootstrap\Dsl\bin\Debug\Company.DSLBootstrap.Dsl.pdb
+C:\Users\SPH\Pictures\GeneradorBootstrap\Dsl\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\SPH\Pictures\GeneradorBootstrap\Dsl\obj\Debug\Company.DSLBootstrap.GeneratedCode.DomainModelResx.resources
+C:\Users\SPH\Pictures\GeneradorBootstrap\Dsl\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\SPH\Pictures\GeneradorBootstrap\Dsl\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\SPH\Pictures\GeneradorBootstrap\Dsl\obj\Debug\Company.DSLBootstrap.Dsl.dll
+C:\Users\SPH\Pictures\GeneradorBootstrap\Dsl\obj\Debug\Company.DSLBootstrap.Dsl.pdb
+C:\Users\SPH\Pictures\Respaldo\GeneradorBootstrap\Dsl\bin\Debug\GeneratedCode\DSLBootstrapSchema.xsd
+C:\Users\SPH\Pictures\Respaldo\GeneradorBootstrap\Dsl\bin\Debug\Company.DSLBootstrap.Dsl.dll
+C:\Users\SPH\Pictures\Respaldo\GeneradorBootstrap\Dsl\bin\Debug\Company.DSLBootstrap.Dsl.pdb
+C:\Users\SPH\Pictures\Respaldo\GeneradorBootstrap\Dsl\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\SPH\Pictures\Respaldo\GeneradorBootstrap\Dsl\obj\Debug\Company.DSLBootstrap.GeneratedCode.DomainModelResx.resources
+C:\Users\SPH\Pictures\Respaldo\GeneradorBootstrap\Dsl\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\SPH\Pictures\Respaldo\GeneradorBootstrap\Dsl\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\SPH\Pictures\Respaldo\GeneradorBootstrap\Dsl\obj\Debug\Company.DSLBootstrap.Dsl.dll
+C:\Users\SPH\Pictures\Respaldo\GeneradorBootstrap\Dsl\obj\Debug\Company.DSLBootstrap.Dsl.pdb
